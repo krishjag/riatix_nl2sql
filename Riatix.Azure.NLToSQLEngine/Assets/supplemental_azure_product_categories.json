@@ -1,0 +1,16 @@
+[  
+  {
+    "slug": "ai-machine-learning",
+    "displayName": "AI + machine learning",
+    "products": [
+      {
+        "slug": "ai-foundry",
+        "displayName": "Azure AI Foundry"
+      },
+      {
+        "slug": "ai-foundry-portal",
+        "displayName": "Azure AI Foundry Portal"
+      }
+    ]
+  }
+]

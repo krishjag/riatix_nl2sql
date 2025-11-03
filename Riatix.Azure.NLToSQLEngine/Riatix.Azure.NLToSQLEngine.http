@@ -1,0 +1,6 @@
+@Riatix.Azure.NLToSQLEngine_HostAddress = http://localhost:5294
+
+GET {{Riatix.Azure.NLToSQLEngine_HostAddress}}/api/Query/ask
+Accept: application/json
+
+###

@@ -1,0 +1,53 @@
+{
+  "MacroGeography": {
+    "Europe": [
+      "Sweden",
+      "United Kingdom",
+      "Norway",
+      "Switzerland",
+      "Italy",
+      "Austria",
+      "Spain",
+      "Poland",
+      "Germany",
+      "France",
+      "Europe"
+    ],
+    "Asia Pacific": [
+      "China (operated by 21Vianet)",
+      "Indonesia",
+      "New Zealand",
+      "Japan",
+      "Korea",
+      "Taiwan",
+      "Malaysia",
+      "Australia",
+      "India",
+      "Asia Pacific"
+    ],
+    "Africa": [
+      "South Africa",
+      "Africa"
+    ],
+    "Middle East": [
+      "United Arab Emirates",
+      "Israel",
+      "Qatar"
+    ],
+    "North America": [
+      "United States",
+      "Mexico",
+      "Canada"
+    ],
+    "South America": [
+      "Brazil",
+      "Chile"
+    ],
+    "Non Regional": [
+      "Non Regional"
+    ],
+    "US Government": [
+      "Azure Government"
+    ]
+  }  
+}

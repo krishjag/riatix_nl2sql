@@ -1,0 +1,3840 @@
+[
+  {
+    "slug": "featured",
+    "displayName": "Popular",
+    "products": [
+      {
+        "slug": "virtual-machines",
+        "displayName": "Virtual Machines",
+        "description": "Provision Windows and Linux VMs in seconds",
+        "keywords": "series,sql server,biztalk,instances,vm,ri,paygo,ec2,gpu,cpu,vms,sharepoint,reserved instances,nvidia",
+        "freeAccountBenefits": [
+          {
+            "key": "linux_b1s",
+            "value": "750 hours of Linux B1s standard tier"
+          },
+          {
+            "key": "windows_b1s",
+            "value": "750 hours of Windows B1s standard tier"
+          },
+          {
+            "key": "z_red_had_enterpise_1vcpu",
+            "value": "750 hours of the \"Red Hat Enterprise Linux\" software type for any 1 vCPU VM"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/virtual-machines/",
+          "documentationUrl": "docs:/azure/virtual-machines/",
+          "url": "acom:/products/virtual-machines/",
+          "slaUrl": "/en-us/support/legal/sla/virtual-machines/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "storage",
+        "displayName": "Storage Accounts",
+        "description": "Durable, highly available, and massively scalable cloud storage",
+        "keywords": "files,blobs,unmanaged disks,data lake,tables,queues",
+        "freeAccountBenefits": [
+          {
+            "key": "block-blob-a_5_GB_Hot_LRS_Data_Stored",
+            "value": "5 GB of hot LRS data stored (capacity)"
+          },
+          {
+            "key": "block-blob-b_10_GB_Archive_LRS_Data_Stored",
+            "value": "10 GB of archive LRS data stored (capacity)"
+          },
+          {
+            "key": "block-blob-c_10K_Hot_LRS_Write_Operations",
+            "value": "10,000 hot LRS write operations"
+          },
+          {
+            "key": "block-blob-d_20k_Hot_Read_Operations",
+            "value": "20,000 hot read operations"
+          },
+          {
+            "key": "block-blob-e_20K_LRS_List_Create_Container_Operations",
+            "value": "20,000 LRS list and create container operations"
+          },
+          {
+            "key": "block-blob-f_10_GB_Archive_Data_Retrieval",
+            "value": "10 GB of archive data retrieval"
+          },
+          {
+            "key": "block-blob-g_100_Archive_Read_Operations",
+            "value": "100 archive read operations"
+          },
+          {
+            "key": "file-a_5_GB_LRS_Data_Storage",
+            "value": "5 GB of LRS data storage (across Data at-rest and Snapshots)"
+          },
+          {
+            "key": "file-b_10k_LRS_Write_Operations",
+            "value": "10,000 LRS write operations"
+          },
+          {
+            "key": "file-c_10k_List_Operations",
+            "value": "10,000 list operations"
+          },
+          {
+            "key": "file-d_40k_Read_Operations",
+            "value": "40,000 read operations"
+          },
+          {
+            "key": "file-e_40k_Protocol_Operations",
+            "value": "40,000 protocol (or all other) operations"
+          },
+          {
+            "key": "page-a_2_2_P6",
+            "value": "2.2 P6 Disks (64 GB, 240 IOPS), LRS redundancy"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/storage/",
+          "documentationUrl": "docs:/azure/storage/",
+          "url": "acom:/services/storage/",
+          "slaUrl": "/en-us/support/legal/sla/storage/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-sql-database",
+        "displayName": "Azure SQL Database",
+        "description": "Build apps that scale with managed and intelligent SQL database in the cloud",
+        "keywords": "",
+        "freeAccountBenefits": [
+          {
+            "key": "Sql_Db_GeneralPurpose_Serverless",
+            "value": "100,000 vCore seconds of SQL DB General Purpose Serverless usage per month with 32GB of storage"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-sql-database/",
+          "documentationUrl": "docs:/azure/sql-database/",
+          "url": "acom:/products/azure-sql/database/",
+          "slaUrl": "/en-us/support/legal/sla/azure-sql-database/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "app-service",
+        "displayName": "App Service",
+        "description": "Quickly create powerful cloud apps for web and mobile",
+        "keywords": "application service,as",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/app-service/windows/",
+          "documentationUrl": "docs:/azure/app-service/",
+          "url": "acom:/products/app-service/",
+          "slaUrl": "/en-us/support/legal/sla/app-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cosmos-db",
+        "displayName": "Azure Cosmos DB",
+        "description": "Build or modernize scalable, high-performance apps",
+        "keywords": "nosql database,acd,data management,cloud data",
+        "freeAccountBenefits": [
+          {
+            "key": "rus_standard_provisioned",
+            "value": "400 RU/s of standard provisioned throughput"
+          },
+          {
+            "key": "transactional_storage",
+            "value": "25 GB of transactional storage"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cosmos-db/",
+          "documentationUrl": "docs:azure/cosmos-db/",
+          "url": "acom:/products/cosmos-db/",
+          "slaUrl": "/en-us/support/legal/sla/cosmos-db/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "kubernetes-service",
+        "displayName": "Azure Kubernetes Service (AKS)",
+        "description": "Deploy and scale containers on managed Kubernetes",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/kubernetes-service/",
+          "documentationUrl": "docs:azure/aks/",
+          "url": "acom:/products/kubernetes-service/",
+          "slaUrl": "/en-us/support/legal/sla/kubernetes-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "functions",
+        "displayName": "Azure Functions",
+        "description": "Execute event-driven serverless code functions with an end-to-end development experience",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/functions/",
+          "documentationUrl": "docs:/azure/azure-functions/",
+          "url": "acom:/products/functions/",
+          "slaUrl": "/en-us/support/legal/sla/functions/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cognitive-services",
+        "displayName": "Azure AI services",
+        "description": "Add cognitive capabilities to apps with APIs and AI services",
+        "keywords": "speech services,bing custom search,ink recognizer,immersive reader,azure ai content safety,bing entity search,custom vision,speaker recognition,translator speech,language understanding,qna maker,aas,anomaly detector,bing autosuggest,translator text,bing spell check,computer vision,text analytics,personalizer,bing search,face",
+        "freeAccountBenefits": [
+          {
+            "key": "anomaly_detector-a_20k_trans",
+            "value": "20,000 transactions, standard instance"
+          },
+          {
+            "key": "cognitive_service_for_language",
+            "value": "5,000 Cognitive Service for Language text records, \"Pay as you go\" payment option, standard instance"
+          },
+          {
+            "key": "cognitive_service_for_personalizer",
+            "value": "50,000 transactions, S0 instance"
+          },
+          {
+            "key": "computer_vision-a_5k_trans",
+            "value": "5,000 transactions (across the S1, S2, and S3 features), \"Pay as you go\" payment option, standard tier"
+          },
+          {
+            "key": "content_moderator-a_10K_trans",
+            "value": "10,000 transactions, standard instance"
+          },
+          {
+            "key": "custom_vision_service-a_10K_prediction",
+            "value": "10,000 prediction transactions"
+          },
+          {
+            "key": "custom_vision_service-b_1_training",
+            "value": "1 training hour"
+          },
+          {
+            "key": "custom_vision_service-c_5k_images",
+            "value": "5,000 images per free project (2 free projects; up to 10,000 images total)"
+          },
+          {
+            "key": "face_api-a_30K_trans",
+            "value": "30,000 transactions, standard instance"
+          },
+          {
+            "key": "language_service-a_5k_cognitive_services",
+            "value": "5,000 Cognitive Service for Language text records, \"Pay as you go\" payment option, standard instance"
+          },
+          {
+            "key": "language_understanding_intelligent_services-a_10k_text_request",
+            "value": "10,000 text request (speech to intent) transactions, \"Pay as you go\" payment option, standard instance"
+          },
+          {
+            "key": "personalizer-a_50000_tran",
+            "value": "50,000 transactions, S0 instance"
+          },
+          {
+            "key": "qna_maker-a_3_days",
+            "value": "3 days of unlimited managed documents, standard instance"
+          },
+          {
+            "key": "standard_instances_transactions",
+            "value": "20,000 transactions, standard instance"
+          },
+          {
+            "key": "standard_instances_transactions_content_moderator",
+            "value": "10,000 transactions, standard instance"
+          },
+          {
+            "key": "translator_text_api-a_2_mil_characters",
+            "value": "2 million characters (across standard text, custom text, and custom document), \"Pay as you go\" payment option, S1 instance"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cognitive-services/",
+          "documentationUrl": "docs:/azure/cognitive-services/",
+          "url": "acom:/products/ai-services/",
+          "slaUrl": "/en-us/support/legal/sla/cognitive-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cost-management",
+        "displayName": "Microsoft Cost Management",
+        "description": "Monitor, allocate, and optimize cloud costs with transparency, accuracy, and efficiency",
+        "keywords": "mcm,optimization",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cost-management/",
+          "documentationUrl": "docs:azure/cost-management/",
+          "url": "acom:/products/cost-management/",
+          "slaUrl": "/en-us/support/legal/sla/cost-management/",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "compute",
+    "displayName": "Compute",
+    "products": [
+      {
+        "slug": "virtual-machines",
+        "displayName": "Virtual Machines",
+        "description": "Provision Windows and Linux VMs in seconds",
+        "keywords": "series,sql server,biztalk,instances,vm,ri,paygo,ec2,gpu,cpu,vms,sharepoint,reserved instances,nvidia",
+        "freeAccountBenefits": [
+          {
+            "key": "linux_b1s",
+            "value": "750 hours of Linux B1s standard tier"
+          },
+          {
+            "key": "windows_b1s",
+            "value": "750 hours of Windows B1s standard tier"
+          },
+          {
+            "key": "z_red_had_enterpise_1vcpu",
+            "value": "750 hours of the \"Red Hat Enterprise Linux\" software type for any 1 vCPU VM"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/virtual-machines/",
+          "documentationUrl": "docs:/azure/virtual-machines/",
+          "url": "acom:/products/virtual-machines/",
+          "slaUrl": "/en-us/support/legal/sla/virtual-machines/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "virtual-machine-scale-sets",
+        "displayName": "Virtual Machine Scale Sets",
+        "description": "Manage and scale up to thousands of Linux and Windows VMs",
+        "keywords": "business,enterprise,sql server,essential,biztalk,advanced,standard,windows server,licensing,advantage,linux,hpc,ibm,web,sap,sharepoint,red hat,oracle,ubuntu,rhel ha,vmss,rhel,sles",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/virtual-machine-scale-sets/",
+          "documentationUrl": "docs:/azure/virtual-machine-scale-sets/",
+          "url": "acom:/products/virtual-machine-scale-sets/",
+          "slaUrl": "/en-us/support/legal/sla/virtual-machine-scale-sets/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "kubernetes-service",
+        "displayName": "Azure Kubernetes Service (AKS)",
+        "description": "Deploy and scale containers on managed Kubernetes",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/kubernetes-service/",
+          "documentationUrl": "docs:azure/aks/",
+          "url": "acom:/products/kubernetes-service/",
+          "slaUrl": "/en-us/support/legal/sla/kubernetes-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "functions",
+        "displayName": "Azure Functions",
+        "description": "Execute event-driven serverless code functions with an end-to-end development experience",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/functions/",
+          "documentationUrl": "docs:/azure/azure-functions/",
+          "url": "acom:/products/functions/",
+          "slaUrl": "/en-us/support/legal/sla/functions/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "service-fabric",
+        "displayName": "Azure Service Fabric",
+        "description": "Deploy and operate always-on, scalable, distributed apps",
+        "keywords": "asf",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/service-fabric/",
+          "documentationUrl": "docs:/azure/service-fabric/",
+          "url": "acom:/products/service-fabric/",
+          "slaUrl": "/en-us/support/legal/sla/service-fabric/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "app-service",
+        "displayName": "App Service",
+        "description": "Quickly create powerful cloud apps for web and mobile",
+        "keywords": "application service,as",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/app-service/windows/",
+          "documentationUrl": "docs:/azure/app-service/",
+          "url": "acom:/products/app-service/",
+          "slaUrl": "/en-us/support/legal/sla/app-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "container-instances",
+        "displayName": "Azure Container Instances",
+        "description": "Launch containers with hypervisor isolation",
+        "keywords": "docker on azure,aci",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/container-instances/",
+          "documentationUrl": "docs:/azure/container-instances/",
+          "url": "acom:/products/container-instances/",
+          "slaUrl": "/en-us/support/legal/sla/container-instances/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "batch",
+        "displayName": "Batch",
+        "description": "Cloud-scale job scheduling and compute management",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/batch/",
+          "documentationUrl": "docs:/azure/batch/",
+          "url": "acom:/services/batch/",
+          "slaUrl": "/en-us/support/legal/sla/batch/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cloud-services",
+        "displayName": "Cloud Services",
+        "description": "Create highly-available, infinitely-scalable cloud applications and APIs",
+        "keywords": "cloud products,cs",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cloud-services/",
+          "documentationUrl": "docs:/azure/cloud-services/",
+          "url": "acom:/products/cloud-services/",
+          "slaUrl": "/en-us/support/legal/sla/cloud-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-vmware",
+        "displayName": "Azure VMware Solution",
+        "description": "Run your VMware workloads natively on Azure",
+        "keywords": "cloud,avs,vmware",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-vmware/",
+          "documentationUrl": "docs:azure/azure-vmware/",
+          "url": "acom:/services/azure-vmware/",
+          "slaUrl": "/en-us/support/legal/sla/azure-vmware/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "virtual-desktop",
+        "displayName": "Azure Virtual Desktop",
+        "description": "Enable a secure, remote desktop experience from anywhere",
+        "keywords": "stack hci,azure stack,on-premise,ashci,avd,hci,hybrid,remote",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/virtual-desktop/",
+          "documentationUrl": "docs:azure/virtual-desktop/overview",
+          "url": "acom:/products/virtual-desktop/",
+          "slaUrl": "/en-us/support/legal/sla/virtual-desktop/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "spring-apps",
+        "displayName": "Azure Spring Apps",
+        "description": "Build and deploy Spring Boot applications with a fully managed service from Microsoft and VMware",
+        "keywords": "pivotal,microservices,asa,boot,java",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/spring-apps/",
+          "documentationUrl": "docs:azure/spring-apps/",
+          "url": "acom:/services/spring-apps/",
+          "slaUrl": "/en-us/support/legal/sla/spring-apps/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "virtual-machines\\dedicated-host",
+        "displayName": "Azure Dedicated Host",
+        "description": "A dedicated physical server to host your Azure VMs for Windows and Linux",
+        "keywords": "virtual machine,dedicated,dh,vm,adh,host",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/virtual-machines/dedicated-host/",
+          "documentationUrl": "docs:azure/virtual-machines/windows/dedicated-hosts",
+          "url": "acom:/products/virtual-machines/dedicated-host/",
+          "slaUrl": "/en-us/support/legal/sla/virtual-machines/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "nutanix-on-azure",
+        "displayName": "Nutanix Cloud Clusters on Azure",
+        "description": "With NC2 on Azure, manage applications and infrastructure on Azure and seamlessly move applications between on-premises and Azure using a single management console.",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/nutanix-on-azure",
+          "documentationUrl": "https://learn.microsoft.com/en-us/azure/baremetal-infrastructure/workloads/nc2-on-azure/architecture",
+          "url": "https://learn.microsoft.com/azure/baremetal-infrastructure/workloads/nc2-on-azure/nc2-baremetal-overview",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "networking",
+    "displayName": "Networking",
+    "products": [
+      {
+        "slug": "virtual-network",
+        "displayName": "Virtual Network",
+        "description": "Create your own private network infrastructure in the cloud",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/virtual-network/",
+          "documentationUrl": "docs:/azure/virtual-network/",
+          "url": "acom:/products/virtual-network/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "virtual-network-manager",
+        "displayName": "Azure Virtual Network Manager",
+        "description": "Centrally manage virtual networks in Azure from a single pane of glass",
+        "keywords": "network,anm,vnm,networking,virtual,connectivity,manager,security,avnm,vnet",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/virtual-network-manager/",
+          "documentationUrl": "docs:/azure/virtual-network-manager",
+          "url": "acom:/products/virtual-network-manager/",
+          "slaUrl": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "load-balancer",
+        "displayName": "Load Balancer",
+        "description": "Deliver high availability and network performance to your apps",
+        "keywords": "lb",
+        "freeAccountBenefits": [
+          {
+            "key": "a_750_hrs_first_5",
+            "value": "750 hours of the first 5 (included) rules"
+          },
+          {
+            "key": "b_5_hrs_of_additional",
+            "value": "5 hours of additional (overage) Load Balancer rules"
+          },
+          {
+            "key": "c_15_gb",
+            "value": "15 GB of data processed"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/load-balancer/",
+          "documentationUrl": "docs:/azure/load-balancer/",
+          "url": "acom:/products/azure-load-balancing/",
+          "slaUrl": "/en-us/support/legal/sla/load-balancer/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "application-gateway",
+        "displayName": "Application Gateway",
+        "description": "Build secure, scalable, highly available web front ends in Azure",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/application-gateway/",
+          "documentationUrl": "docs:/azure/application-gateway/",
+          "url": "acom:/products/application-gateway/",
+          "slaUrl": "/en-us/support/legal/sla/application-gateway/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "vpn-gateway",
+        "displayName": "VPN Gateway",
+        "description": "Establish secure, cross-premises connectivity",
+        "keywords": "virtual network,vg,cloud infrastructure as a service,iaas,vpng",
+        "freeAccountBenefits": [
+          {
+            "key": "gateway_hours",
+            "value": "750 gateway hours of type VpnGw1"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/vpn-gateway/",
+          "documentationUrl": "docs:/azure/vpn-gateway/",
+          "url": "acom:/products/vpn-gateway/",
+          "slaUrl": "/en-us/support/legal/sla/vpn-gateway/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "dns",
+        "displayName": "Azure DNS",
+        "description": "Host your Domain Name System (DNS) domain in Azure",
+        "keywords": "private,resolver",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/dns/",
+          "documentationUrl": "docs:/azure/dns/",
+          "url": "acom:/products/dns/",
+          "slaUrl": "/en-us/support/legal/sla/dns/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cdn",
+        "displayName": "Content Delivery Network",
+        "description": "Fast, reliable content delivery network with global reach",
+        "keywords": "cdn",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cdn/",
+          "documentationUrl": "docs:/azure/cdn/",
+          "url": "acom:/products/cdn/",
+          "slaUrl": "/en-us/support/legal/sla/cdn/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "ddos-protection",
+        "displayName": "Azure DDoS Protection",
+        "description": "Protect your Azure resources from distributed denial-of-service (DDoS) attacks",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/ddos-protection/",
+          "documentationUrl": "docs:azure/ddos-protection/ddos-protection-overview",
+          "url": "acom:/products/ddos-protection/",
+          "slaUrl": "/en-us/support/legal/sla/ddos-protection/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "traffic-manager",
+        "displayName": "Traffic Manager",
+        "description": "Route incoming traffic for high performance and availability",
+        "keywords": "tm,load balancing",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/traffic-manager/",
+          "documentationUrl": "docs:/azure/traffic-manager/",
+          "url": "acom:/products/traffic-manager/",
+          "slaUrl": "/en-us/support/legal/sla/traffic-manager/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "expressroute",
+        "displayName": "Azure ExpressRoute",
+        "description": "Experience a fast, reliable, and private connection to Azure",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/expressroute/",
+          "documentationUrl": "docs:/azure/expressroute/",
+          "url": "acom:/products/expressroute/",
+          "slaUrl": "/en-us/support/legal/sla/expressroute/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "private-5g-core",
+        "displayName": "Azure Private 5G Core",
+        "description": "Rapidly deploy and manage private 5G networks at the enterprise edge",
+        "keywords": "5g,ap5gc,mec,private mec,private 5g",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/private-5g-core/",
+          "documentationUrl": "docs:/azure/private-5g-core/?branch=release-preview-private-5g-core",
+          "url": "acom:/products/private-5g-core/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "network-watcher",
+        "displayName": "Network Watcher",
+        "description": "Network performance monitoring and diagnostics solution",
+        "keywords": "nw",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/network-watcher/",
+          "documentationUrl": "docs:/azure/network-watcher/",
+          "url": "acom:/services/network-watcher/",
+          "slaUrl": "/en-us/support/legal/sla/network-watcher/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "bandwidth",
+        "displayName": "Bandwidth",
+        "description": "Data transferred out of Azure data centers",
+        "keywords": "data transfer",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/bandwidth/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "ip-addresses",
+        "displayName": "IP Addresses",
+        "description": "A dynamic or reserved address used to identify a given Virtual Machine or Cloud Service",
+        "keywords": "virtual servers,ia,virtual machines",
+        "freeAccountBenefits": [
+          {
+            "key": "basicclassic-a_1500_ip_hours",
+            "value": "1500 IP hours of Dynamic IP Addresses"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/ip-addresses/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-firewall",
+        "displayName": "Azure Firewall",
+        "description": "Protect your Azure Virtual Network resources with cloud-native network security",
+        "keywords": "network security,af",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-firewall/",
+          "documentationUrl": "go:2004027",
+          "url": "acom:/products/azure-firewall/",
+          "slaUrl": "/en-us/support/legal/sla/azure-firewall/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "virtual-wan",
+        "displayName": "Virtual WAN",
+        "description": "Optimize and automate branch to branch connectivity through Azure",
+        "keywords": "vw,wide area network,cloud service providers,vwan",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/virtual-wan/",
+          "documentationUrl": "docs:/azure/virtual-wan/",
+          "url": "acom:/products/virtual-wan/",
+          "slaUrl": "/en-us/support/legal/sla/virtual-wan/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-bastion",
+        "displayName": "Azure Bastion",
+        "description": "Fully managed service that helps secure remote access to your virtual machines",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-bastion/",
+          "documentationUrl": "docs:azure/bastion/",
+          "url": "acom:/services/azure-bastion/",
+          "slaUrl": "/en-us/support/legal/sla/azure-bastion/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "private-link",
+        "displayName": "Azure Private Link",
+        "description": "Private access to services hosted on the Azure platform, keeping your data on the Microsoft network",
+        "keywords": "apl",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/private-link/",
+          "documentationUrl": "docs:/azure/private-link/",
+          "url": "acom:/products/private-link/",
+          "slaUrl": "/en-us/support/legal/sla/private-link/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "firewall-manager",
+        "displayName": "Azure Firewall Manager",
+        "description": "Central network security policy and route management for globally distributed, software-defined perimeters",
+        "keywords": "network security,security policy,afm,route",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/firewall-manager/",
+          "documentationUrl": "docs:/azure/firewall-manager/",
+          "url": "acom:/products/firewall-manager/",
+          "slaUrl": "/en-us/support/legal/sla/firewall-manager/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "frontdoor-standard-premium",
+        "displayName": "Azure Front Door",
+        "description": "Modern cloud CDN that delivers optimized experiences to your users anywhere",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/frontdoor/",
+          "documentationUrl": "docs:azure/frontdoor/",
+          "url": "acom:/products/frontdoor/",
+          "slaUrl": "/en-us/support/legal/sla/frontdoor/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "route-server",
+        "displayName": "Azure Route Server",
+        "description": "Enable network appliances to exchange routes dynamically with virtual networks in Azure",
+        "keywords": "Server,ExpressRoute,Network,ars,VPN,Route,Virtual,gateways",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/route-server/",
+          "documentationUrl": "docs:/azure/route-server/overview/",
+          "url": "acom:/products/route-server/",
+          "slaUrl": "/en-us/support/legal/sla/route-server/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "communications-gateway",
+        "displayName": "Azure Communications Gateway",
+        "description": "Rapidly connect your fixed and mobile networks with Microsoft Teams",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/communications-gateway/",
+          "documentationUrl": "docs:azure/communications-gateway",
+          "url": "acom:/products/communications-gateway/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "virtual-network-nat",
+        "displayName": "Azure NAT Gateway",
+        "description": "Provide highly scalable, resilient, and secure outbound connectivity for virtual networks",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-nat-gateway/",
+          "documentationUrl": "docs:azure/virtual-network/nat-gateway/nat-overview",
+          "url": "acom:/products/azure-nat-gateway/",
+          "slaUrl": "/en-us/support/legal/sla/virtual-network-nat/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "storage-actions",
+        "displayName": "Azure Storage Actions",
+        "description": "Simplify storage data management tasks at massive scale",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/storage-actions/",
+          "documentationUrl": "docs:/azure/storage-actions/",
+          "url": "acom:/products/storage-actions",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "storage",
+    "displayName": "Storage",
+    "products": [
+      {
+        "slug": "storage",
+        "displayName": "Storage Accounts",
+        "description": "Durable, highly available, and massively scalable cloud storage",
+        "keywords": "files,blobs,unmanaged disks,data lake,tables,queues",
+        "freeAccountBenefits": [
+          {
+            "key": "block-blob-a_5_GB_Hot_LRS_Data_Stored",
+            "value": "5 GB of hot LRS data stored (capacity)"
+          },
+          {
+            "key": "block-blob-b_10_GB_Archive_LRS_Data_Stored",
+            "value": "10 GB of archive LRS data stored (capacity)"
+          },
+          {
+            "key": "block-blob-c_10K_Hot_LRS_Write_Operations",
+            "value": "10,000 hot LRS write operations"
+          },
+          {
+            "key": "block-blob-d_20k_Hot_Read_Operations",
+            "value": "20,000 hot read operations"
+          },
+          {
+            "key": "block-blob-e_20K_LRS_List_Create_Container_Operations",
+            "value": "20,000 LRS list and create container operations"
+          },
+          {
+            "key": "block-blob-f_10_GB_Archive_Data_Retrieval",
+            "value": "10 GB of archive data retrieval"
+          },
+          {
+            "key": "block-blob-g_100_Archive_Read_Operations",
+            "value": "100 archive read operations"
+          },
+          {
+            "key": "file-a_5_GB_LRS_Data_Storage",
+            "value": "5 GB of LRS data storage (across Data at-rest and Snapshots)"
+          },
+          {
+            "key": "file-b_10k_LRS_Write_Operations",
+            "value": "10,000 LRS write operations"
+          },
+          {
+            "key": "file-c_10k_List_Operations",
+            "value": "10,000 list operations"
+          },
+          {
+            "key": "file-d_40k_Read_Operations",
+            "value": "40,000 read operations"
+          },
+          {
+            "key": "file-e_40k_Protocol_Operations",
+            "value": "40,000 protocol (or all other) operations"
+          },
+          {
+            "key": "page-a_2_2_P6",
+            "value": "2.2 P6 Disks (64 GB, 240 IOPS), LRS redundancy"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/storage/",
+          "documentationUrl": "docs:/azure/storage/",
+          "url": "acom:/services/storage/",
+          "slaUrl": "/en-us/support/legal/sla/storage/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "storsimple",
+        "displayName": "StorSimple",
+        "description": "Lower costs with an enterprise hybrid cloud storage solution",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/storsimple/",
+          "documentationUrl": "docs:/azure/storsimple/",
+          "url": "acom:/products/storsimple/",
+          "slaUrl": "/en-us/support/legal/sla/storsimple/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "databox",
+        "displayName": "Azure Data Box",
+        "description": "Appliances and solutions for data transfer to Azure and edge compute",
+        "keywords": "gateway,heavy,adb,data transfer,shipping,storage,large data,disk",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/databox/",
+          "documentationUrl": "docs:azure/databox/",
+          "url": "acom:/products/databox/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "data-share",
+        "displayName": "Azure Data Share",
+        "description": "A simple and safe service for sharing big data with external organizations",
+        "keywords": "secure,ads,ftp,b2b data sharing,governance,exchange,governed,marketplace",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/data-share/",
+          "documentationUrl": "docs:azure/data-share",
+          "url": "acom:/products/data-share/",
+          "slaUrl": "/en-us/support/legal/sla/data-share/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "netapp",
+        "displayName": "Azure NetApp Files",
+        "description": "Enterprise-grade Azure file shares, powered by NetApp",
+        "keywords": "files,anf,cross regional replication",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/netapp/",
+          "documentationUrl": "docs:azure/azure-netapp-files/",
+          "url": "acom:/services/netapp/",
+          "slaUrl": "/en-us/support/legal/sla/netapp/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-stack-edge",
+        "displayName": "Azure Stack Edge",
+        "description": "An Azure managed device that brings the compute, storage, and intelligence of Azure to the edge",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-stack/edge/",
+          "documentationUrl": "https://aka.ms/databoxdocsonline",
+          "url": "acom:/products/azure-stack/edge/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "managed-disks",
+        "displayName": "Managed Disks",
+        "description": "Persistent, secured disk storage for Azure virtual machines",
+        "keywords": "",
+        "freeAccountBenefits": [
+          {
+            "key": "managed-disks-a_200_trans",
+            "value": "200 Transaction Units (that is, 2 million disk operations) on any HDD disk size"
+          },
+          {
+            "key": "managed-disks-b_1_gb",
+            "value": "1 GB of LRS snapshots on any HDD disk size"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/managed-disks/",
+          "documentationUrl": "docs:/azure/virtual-machines/windows/managed-disks-overview",
+          "url": "acom:/services/managed-disks/",
+          "slaUrl": "/en-us/support/legal/sla/managed-disks/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "confidential-ledger",
+        "displayName": "Azure confidential ledger",
+        "description": "Tamperproof, unstructured data store hosted in trusted execution environments (TEEs) and backed by cryptographically verifiable evidence",
+        "keywords": "confidential,acl,ledger,storage",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/confidential-ledger/",
+          "documentationUrl": "docs:azure/confidential-ledger/",
+          "url": "acom:/products/azure-confidential-ledger/",
+          "slaUrl": "/en-us/support/legal/sla/confidential-ledger/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-elastic-san",
+        "displayName": "Azure Elastic SAN",
+        "description": "Elastic SAN is a cloud-native storage area network (SAN) service built on Azure. Gain access to an end-to-end experience like your on-premises SAN",
+        "keywords": "elastic,san,storage",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/elastic-san/",
+          "documentationUrl": "https://learn.microsoft.com/azure/storage/elastic-san/",
+          "url": "acom:/products/storage/elastic-san/",
+          "slaUrl": "https://aka.ms/Elastic-SAN-SLA",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "managed-lustre",
+        "displayName": "Azure Managed Lustre",
+        "description": "Azure Managed Lustre is a fully managed, cloud based parallel file system that enables customers to run their high performance computing (HPC) workloads in the cloud",
+        "keywords": "parallel file system,azure managed lustre,ai,aml,hpc,ustre",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/managed-lustre/",
+          "documentationUrl": "https://aka.ms/azure-managed-lustre-docs",
+          "url": "acom:/products/managed-lustre/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "storage\\files",
+        "displayName": "Azure Files",
+        "description": "Simple, secure and serverless enterprise-grade cloud file shares",
+        "keywords": "file system,file sync,azure file storage,file share,azure file share,files,nfs,smb",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/storage/files/",
+          "documentationUrl": "https://learn.microsoft.com/azure/storage/files/storage-files-introduction/",
+          "url": "acom:/products/storage/files/",
+          "slaUrl": "/en-us/support/legal/sla/storage/",
+          "roadmapUrl": "/en-us/updates/?product=storage"
+        }
+      },
+      {
+        "slug": "container-storage",
+        "displayName": "Azure Container Storage",
+        "description": "Manage persistent volumes for stateful container applications",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/container-storage/",
+          "documentationUrl": "https://aka.ms/AzureContainerStoragedocs",
+          "url": "acom:/products/container-storage/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "storage-actions",
+        "displayName": "Azure Storage Actions",
+        "description": "Simplify storage data management tasks at massive scale",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/storage-actions/",
+          "documentationUrl": "docs:/azure/storage-actions/",
+          "url": "acom:/products/storage-actions",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "web",
+    "displayName": "Web",
+    "products": [
+      {
+        "slug": "app-service",
+        "displayName": "App Service",
+        "description": "Quickly create powerful cloud apps for web and mobile",
+        "keywords": "application service,as",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/app-service/windows/",
+          "documentationUrl": "docs:/azure/app-service/",
+          "url": "acom:/products/app-service/",
+          "slaUrl": "/en-us/support/legal/sla/app-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "api-management",
+        "displayName": "API Management",
+        "description": "Publish APIs to developers, partners, and employees securely and at scale",
+        "keywords": "cloud system,am",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/api-management/",
+          "documentationUrl": "docs:/azure/api-management/",
+          "url": "acom:/products/api-management/",
+          "slaUrl": "/en-us/support/legal/sla/api-management/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cdn",
+        "displayName": "Content Delivery Network",
+        "description": "Fast, reliable content delivery network with global reach",
+        "keywords": "cdn",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cdn/",
+          "documentationUrl": "docs:/azure/cdn/",
+          "url": "acom:/products/cdn/",
+          "slaUrl": "/en-us/support/legal/sla/cdn/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "search",
+        "displayName": "Azure AI Search",
+        "description": "Enterprise scale search for app development",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/search/",
+          "documentationUrl": "docs:/azure/search/",
+          "url": "acom:/products/ai-services/ai-search/",
+          "slaUrl": "/en-us/support/legal/sla/search/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "signalr-service",
+        "displayName": "Azure SignalR Service",
+        "description": "Add real-time web functionalities easily",
+        "keywords": "real time web,websocket,pubsub,push notification,asrs",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/signalr-service/",
+          "documentationUrl": "go:873038",
+          "url": "acom:/products/signalr-service/",
+          "slaUrl": "/en-us/support/legal/sla/signalr-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "web-pubsub",
+        "displayName": "Azure Web PubSub",
+        "description": "Easily build real-time messaging web applications using WebSockets and the publish-subscribe pattern",
+        "keywords": "publish subscribe,real time messaging,messaging,awps",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/web-pubsub/",
+          "documentationUrl": "docs:azure/azure-web-pubsub",
+          "url": "acom:/products/web-pubsub/",
+          "slaUrl": "/en-us/support/legal/sla/web-pubsub/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "notification-hubs",
+        "displayName": "Notification Hubs",
+        "description": "Send push notifications to any platform from any back end",
+        "keywords": "azure notification,nh,develop apps,app development",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/notification-hubs/",
+          "documentationUrl": "docs:/azure/notification-hubs/",
+          "url": "acom:/services/notification-hubs/",
+          "slaUrl": "/en-us/support/legal/sla/notification-hubs/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "app-service\\static",
+        "displayName": "Static Web Apps",
+        "description": "Streamlined full-stack development from source code to global high availability",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/app-service/static/",
+          "documentationUrl": "docs:/azure/static-web-apps/",
+          "url": "acom:/products/app-service/static/",
+          "slaUrl": "/en-us/support/legal/sla/app-service-static/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "communication-services",
+        "displayName": "Azure Communication Services",
+        "description": "Build multichannel communication experiences",
+        "keywords": "calling,acs,sms,chat",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/communication-services/",
+          "documentationUrl": "docs:azure/communication-services/overview",
+          "url": "acom:/products/communication-services/",
+          "slaUrl": "/en-us/support/legal/sla/communication-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "fluid-relay",
+        "displayName": "Azure Fluid Relay",
+        "description": "Easily add real-time collaborative experiences to your apps with Fluid Framework",
+        "keywords": "fluid relay service,azure fluid relay service,azure fluid,microsoft fluid,fluid framework,afr,frs,azure frs,azure fluid relay",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/fluid-relay/",
+          "documentationUrl": "docs:/azure/azure-fluid-relay",
+          "url": "acom:/products/fluid-relay/",
+          "slaUrl": "/en-us/support/legal/sla/fluid-relay/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "confidential-ledger",
+        "displayName": "Azure confidential ledger",
+        "description": "Tamperproof, unstructured data store hosted in trusted execution environments (TEEs) and backed by cryptographically verifiable evidence",
+        "keywords": "confidential,acl,ledger,storage",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/confidential-ledger/",
+          "documentationUrl": "docs:azure/confidential-ledger/",
+          "url": "acom:/products/azure-confidential-ledger/",
+          "slaUrl": "/en-us/support/legal/sla/confidential-ledger/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "playwright-testing",
+        "displayName": "Microsoft Playwright Testing",
+        "description": "Scalable end-to-end testing for modern web apps",
+        "keywords": "microsoft web app testing,microsoft playwright testing service,playwright testing,cross-browser automation,microsoft e2e testing,mpt,playwright",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/playwright-testing/",
+          "documentationUrl": "https://aka.ms/MPT-docs ",
+          "url": "acom:/products/playwright-testing/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "mobile",
+    "displayName": "Mobile",
+    "products": [
+      {
+        "slug": "app-service",
+        "displayName": "App Service",
+        "description": "Quickly create powerful cloud apps for web and mobile",
+        "keywords": "application service,as",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/app-service/windows/",
+          "documentationUrl": "docs:/azure/app-service/",
+          "url": "acom:/products/app-service/",
+          "slaUrl": "/en-us/support/legal/sla/app-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "notification-hubs",
+        "displayName": "Notification Hubs",
+        "description": "Send push notifications to any platform from any back end",
+        "keywords": "azure notification,nh,develop apps,app development",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/notification-hubs/",
+          "documentationUrl": "docs:/azure/notification-hubs/",
+          "url": "acom:/services/notification-hubs/",
+          "slaUrl": "/en-us/support/legal/sla/notification-hubs/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-maps",
+        "displayName": "Azure Maps",
+        "description": "Add location data and mapping visuals to business applications and solutions",
+        "keywords": "location based services,am,cloud,maps api",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-maps/",
+          "documentationUrl": "docs:/azure/azure-maps/index",
+          "url": "acom:/services/azure-maps/",
+          "slaUrl": "/en-us/support/legal/sla/azure-maps/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "communication-services",
+        "displayName": "Azure Communication Services",
+        "description": "Build multichannel communication experiences",
+        "keywords": "calling,acs,sms,chat",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/communication-services/",
+          "documentationUrl": "docs:azure/communication-services/overview",
+          "url": "acom:/products/communication-services/",
+          "slaUrl": "/en-us/support/legal/sla/communication-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "remote-rendering",
+        "displayName": "Remote Rendering",
+        "description": "Render high-quality, interactive 3D content with real-time streaming",
+        "keywords": "rendering,mix reality,ar,rr,hololens,arr,remote",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/remote-rendering/",
+          "documentationUrl": "docs:/azure/remote-rendering/",
+          "url": "acom:/products/remote-rendering/",
+          "slaUrl": "/en-us/support/legal/sla/remote-rendering/",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "containers",
+    "displayName": "Containers",
+    "products": [
+      {
+        "slug": "kubernetes-service",
+        "displayName": "Azure Kubernetes Service (AKS)",
+        "description": "Deploy and scale containers on managed Kubernetes",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/kubernetes-service/",
+          "documentationUrl": "docs:azure/aks/",
+          "url": "acom:/products/kubernetes-service/",
+          "slaUrl": "/en-us/support/legal/sla/kubernetes-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "container-instances",
+        "displayName": "Azure Container Instances",
+        "description": "Launch containers with hypervisor isolation",
+        "keywords": "docker on azure,aci",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/container-instances/",
+          "documentationUrl": "docs:/azure/container-instances/",
+          "url": "acom:/products/container-instances/",
+          "slaUrl": "/en-us/support/legal/sla/container-instances/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "service-fabric",
+        "displayName": "Azure Service Fabric",
+        "description": "Deploy and operate always-on, scalable, distributed apps",
+        "keywords": "asf",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/service-fabric/",
+          "documentationUrl": "docs:/azure/service-fabric/",
+          "url": "acom:/products/service-fabric/",
+          "slaUrl": "/en-us/support/legal/sla/service-fabric/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "container-registry",
+        "displayName": "Azure Container Registry",
+        "description": "Build, store, secure, and replicate container images and artifacts",
+        "keywords": "acr,free cloud",
+        "freeAccountBenefits": [
+          {
+            "key": "31_registry_unit",
+            "value": "31 registry unit days (standard tier)"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/container-registry/",
+          "documentationUrl": "docs:/azure/container-registry/",
+          "url": "acom:/products/container-registry/",
+          "slaUrl": "/en-us/support/legal/sla/container-registry/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "functions",
+        "displayName": "Azure Functions",
+        "description": "Execute event-driven serverless code functions with an end-to-end development experience",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/functions/",
+          "documentationUrl": "docs:/azure/azure-functions/",
+          "url": "acom:/products/functions/",
+          "slaUrl": "/en-us/support/legal/sla/functions/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "openshift",
+        "displayName": "Azure Red Hat OpenShift",
+        "description": "Deploy and scale containers on managed Red Hat OpenShift",
+        "keywords": "arho",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/openshift/",
+          "documentationUrl": "docs:azure/openshift/",
+          "url": "acom:/services/openshift/",
+          "slaUrl": "/en-us/support/legal/sla/openshift/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "container-apps",
+        "displayName": "Azure Container Apps",
+        "description": "Build and deploy modern apps and microservices using serverless containers",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/container-apps/",
+          "documentationUrl": "https://aka.ms/containerapps/docs",
+          "url": "acom:/products/container-apps/",
+          "slaUrl": "/en-us/support/legal/sla/container-apps/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "aks-ee",
+        "displayName": "Azure Kubernetes Service Edge Essentials",
+        "description": "Azure Kubernetes Service Edge Essentials is an on-premises Kubernetes implementation of Azure Kubernetes Service (AKS) that automates running containerized applications at scale.",
+        "keywords": "aks,on-premises AKS,Azure Kubernetes Service Edge Essentials,Azure Kubernetes Service",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/aks-ee/",
+          "documentationUrl": "docs:/azure/aks/hybrid/aks-edge-overview",
+          "url": "acom:/products/kubernetes-service/#overview",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "container-storage",
+        "displayName": "Azure Container Storage",
+        "description": "Manage persistent volumes for stateful container applications",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/container-storage/",
+          "documentationUrl": "https://aka.ms/AzureContainerStoragedocs",
+          "url": "acom:/products/container-storage/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "databases",
+    "displayName": "Databases",
+    "products": [
+      {
+        "slug": "cosmos-db",
+        "displayName": "Azure Cosmos DB",
+        "description": "Build or modernize scalable, high-performance apps",
+        "keywords": "nosql database,acd,data management,cloud data",
+        "freeAccountBenefits": [
+          {
+            "key": "rus_standard_provisioned",
+            "value": "400 RU/s of standard provisioned throughput"
+          },
+          {
+            "key": "transactional_storage",
+            "value": "25 GB of transactional storage"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cosmos-db/",
+          "documentationUrl": "docs:azure/cosmos-db/",
+          "url": "acom:/products/cosmos-db/",
+          "slaUrl": "/en-us/support/legal/sla/cosmos-db/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-sql-database",
+        "displayName": "Azure SQL Database",
+        "description": "Build apps that scale with managed and intelligent SQL database in the cloud",
+        "keywords": "",
+        "freeAccountBenefits": [
+          {
+            "key": "Sql_Db_GeneralPurpose_Serverless",
+            "value": "100,000 vCore seconds of SQL DB General Purpose Serverless usage per month with 32GB of storage"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-sql-database/",
+          "documentationUrl": "docs:/azure/sql-database/",
+          "url": "acom:/products/azure-sql/database/",
+          "slaUrl": "/en-us/support/legal/sla/azure-sql-database/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "mysql",
+        "displayName": "Azure Database for MySQL",
+        "description": "Fully managed, scalable MySQL Database",
+        "keywords": "server,oss app development,fully managed oss database service,flexible server,azure database,adms",
+        "freeAccountBenefits": [
+          {
+            "key": "a_750_hrs_burstable",
+            "value": "750 hours of the burstable B1MS instance"
+          },
+          {
+            "key": "b_32_gb_storage",
+            "value": "32 GB of storage"
+          },
+          {
+            "key": "c_32_gb_lrs",
+            "value": "32 GB of LRS Backup storage"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/mysql/",
+          "documentationUrl": "docs:/azure/mysql/",
+          "url": "acom:/services/mysql/",
+          "slaUrl": "/en-us/support/legal/sla/mysql/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "mariadb",
+        "displayName": "Azure Database for MariaDB",
+        "description": "Deploy applications to the cloud with enterprise-ready, fully managed community MariaDB",
+        "keywords": "oss app development,fully managed oss database service,admd",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/mariadb/",
+          "documentationUrl": "docs:azure/mariadb",
+          "url": "acom:/services/mariadb/",
+          "slaUrl": "/en-us/support/legal/sla/mariadb/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "postgresql",
+        "displayName": "Azure Database for PostgreSQL",
+        "description": "Fully managed, intelligent, and scalable PostgreSQL",
+        "keywords": "server,hyperscale citus,oss app development,fully managed oss database service,flexible server,adps",
+        "freeAccountBenefits": [
+          {
+            "key": "a_burstable_bims_instance",
+            "value": "750 hours of the burstable B1MS instance"
+          },
+          {
+            "key": "b_storage",
+            "value": "32 GB of storage"
+          },
+          {
+            "key": "c_backup_storage",
+            "value": "32 GB of LRS Backup storage"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/postgresql/",
+          "documentationUrl": "docs:/azure/postgresql/",
+          "url": "acom:/products/postgresql/",
+          "slaUrl": "/en-us/support/legal/sla/postgresql/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "synapse-analytics",
+        "displayName": "Azure Synapse Analytics",
+        "description": "Limitless analytics with unmatched time to insight",
+        "keywords": "asa,sql data warehouse",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/synapse-analytics/",
+          "documentationUrl": "docs:/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is",
+          "url": "acom:/products/synapse-analytics/",
+          "slaUrl": "/en-us/support/legal/sla/synapse-analytics/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "database-migration",
+        "displayName": "Azure Database Migration Service (classic)",
+        "description": "Accelerate your data migration to Azure",
+        "keywords": "adms",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/database-migration/",
+          "documentationUrl": "link:https://aka.ms/dms",
+          "url": "acom:/products/database-migration/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "redis-cache",
+        "displayName": "Azure Cache for Redis",
+        "description": "Accelerate apps with high-throughput, low-latency data caching",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cache/",
+          "documentationUrl": "https://learn.microsoft.com/azure/azure-cache-for-redis/",
+          "url": "acom:/products/cache/",
+          "slaUrl": "/en-us/support/legal/sla/cache/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "health-data-services",
+        "displayName": "Azure Health Data Services",
+        "description": "Unify and manage health data and protected health information (PHI) in the cloud",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/health-data-services/",
+          "documentationUrl": "docs:azure/healthcare-apis/",
+          "url": "acom:/products/health-data-services/",
+          "slaUrl": "/en-us/support/legal/sla/health-data-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-sql",
+        "displayName": "Azure SQL",
+        "description": "Migrate, modernize, and innovate on the modern SQL family of cloud databases",
+        "keywords": "elastic database transaction units,single database,as,instance database transaction units,edtu",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-sql-managed-instance/single/",
+          "url": "acom:/products/azure-sql/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "managed-instance-apache-cassandra",
+        "displayName": "Azure Managed Instance for Apache Cassandra",
+        "description": "Modernize Cassandra data clusters with a managed instance in the cloud",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/managed-instance-apache-cassandra/",
+          "documentationUrl": "link:https://aka.ms/managed-instance-for-apache-cassandra-docs",
+          "url": "acom:/services/managed-instance-apache-cassandra/",
+          "slaUrl": "/en-us/support/legal/sla/managed-instance-apache-cassandra/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "managed-redis",
+        "displayName": "Azure Managed Redis",
+        "description": "Fully-managed in-memory datastore delivering the latest Redis innovations, designed for hyperscale cloud environments",
+        "keywords": "[azure managed redis] price,cache,redis,azure cache for redis,[azure managed redis] cost,managed,[azure managed redis] pricing",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/managed-redis/ ",
+          "documentationUrl": "https://learn.microsoft.com/azure/azure-cache-for-redis/managed-redis/managed-redis-overview",
+          "url": "acom:/products/managed-redis/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "analytics",
+    "displayName": "Analytics",
+    "products": [
+      {
+        "slug": "microsoft-fabric",
+        "displayName": "Microsoft Fabric",
+        "description": "Access, manage, and act on data and insights by connecting every data source and analytics service together on a single platform",
+        "keywords": "onelake storage,microsoft fabric pricing,mf,fabric compute",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/microsoft-fabric/",
+          "documentationUrl": "docs:/fabric/",
+          "url": "https://microsoft.com/microsoft-fabric",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "synapse-analytics",
+        "displayName": "Azure Synapse Analytics",
+        "description": "Limitless analytics with unmatched time to insight",
+        "keywords": "asa,sql data warehouse",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/synapse-analytics/",
+          "documentationUrl": "docs:/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is",
+          "url": "acom:/products/synapse-analytics/",
+          "slaUrl": "/en-us/support/legal/sla/synapse-analytics/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "databricks",
+        "displayName": "Azure Databricks",
+        "description": "Enable data, analytics, and AI use cases on an open data lake",
+        "keywords": "ad,spark technologies",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/databricks/",
+          "documentationUrl": "docs:azure/azure-databricks/",
+          "url": "acom:/products/databricks/",
+          "slaUrl": "/en-us/support/legal/sla/databricks/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "hdinsight",
+        "displayName": "HDInsight",
+        "description": "Provision cloud Hadoop, Spark, R Server, HBase, and Storm clusters",
+        "keywords": "solutions,hdi,hadoop,big data",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/hdinsight/",
+          "documentationUrl": "docs:azure/hdinsight/",
+          "url": "acom:/products/hdinsight/",
+          "slaUrl": "/en-us/support/legal/sla/hdinsight/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "machine-learning-service",
+        "displayName": "Azure Machine Learning",
+        "description": "Use an enterprise-grade service for the end-to-end machine learning lifecycle",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/machine-learning/",
+          "documentationUrl": "docs:azure/machine-learning/service/",
+          "url": "acom:/products/machine-learning/",
+          "slaUrl": "/en-us/support/legal/sla/machine-learning-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "stream-analytics",
+        "displayName": "Azure Stream Analytics",
+        "description": "Real-time analytics on fast-moving streaming data",
+        "keywords": "asa,data",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/stream-analytics/",
+          "documentationUrl": "docs:/azure/stream-analytics/",
+          "url": "acom:/products/stream-analytics/",
+          "slaUrl": "/en-us/support/legal/sla/stream-analytics/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "event-hubs",
+        "displayName": "Event Hubs",
+        "description": "Receive telemetry from millions of devices",
+        "keywords": "eh,big data,big data cloud",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/event-hubs/",
+          "documentationUrl": "docs:/azure/event-hubs/",
+          "url": "acom:/products/event-hubs/",
+          "slaUrl": "/en-us/support/legal/sla/event-hubs/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "power-bi-embedded",
+        "displayName": "Power BI Embedded",
+        "description": "White label Power BI to quickly and easily provide exceptional customer facing dashboards and analytics in your own applications",
+        "keywords": "licensing,pbe",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/power-bi-embedded/",
+          "documentationUrl": "docs:/azure/power-bi-embedded/",
+          "url": "acom:/products/power-bi-embedded/",
+          "slaUrl": "/en-us/support/legal/sla/power-bi-embedded/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "analysis-services",
+        "displayName": "Azure Analysis Services",
+        "description": "Enterprise-grade analytics engine as a service",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/analysis-services/",
+          "documentationUrl": "docs:/azure/analysis-services/",
+          "url": "acom:/products/analysis-services/",
+          "slaUrl": "/en-us/support/legal/sla/analysis-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "data-catalog",
+        "displayName": "Data Catalog",
+        "description": "Get more value from your enterprise data assets",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/data-catalog/",
+          "documentationUrl": "docs:/azure/data-catalog/",
+          "url": "acom:/products/data-catalog/",
+          "slaUrl": "/en-us/support/legal/sla/data-catalog/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "bot-services",
+        "displayName": "Azure AI Bot Service",
+        "description": "Create bots and connect them across channels",
+        "keywords": "framework,computing,cloud,aabs",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/bot-services/",
+          "documentationUrl": "link:https://docs.botframework.com/en-us/azure-bot-service/",
+          "url": "acom:/products/bot-services/",
+          "slaUrl": "/en-us/support/legal/sla/bot-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "data-explorer",
+        "displayName": "Azure Data Explorer",
+        "description": "Fast and highly scalable data exploration service",
+        "keywords": "analytics,ade",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/data-explorer/",
+          "documentationUrl": "docs:/azure/data-explorer/",
+          "url": "acom:/products/data-explorer/",
+          "slaUrl": "/en-us/support/legal/sla/data-explorer/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "data-factory",
+        "displayName": "Azure Data Factory",
+        "description": "Hybrid data integration at enterprise scale, made easy",
+        "keywords": "sql server,integration services,adf,data pipeline,azure sql server",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/data-factory/",
+          "documentationUrl": "docs:/azure/data-factory/",
+          "url": "acom:/products/data-factory/",
+          "slaUrl": "/en-us/support/legal/sla/data-factory/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "data-share",
+        "displayName": "Azure Data Share",
+        "description": "A simple and safe service for sharing big data with external organizations",
+        "keywords": "secure,ads,ftp,b2b data sharing,governance,exchange,governed,marketplace",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/data-share/",
+          "documentationUrl": "docs:azure/data-share",
+          "url": "acom:/products/data-share/",
+          "slaUrl": "/en-us/support/legal/sla/data-share/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "purview",
+        "displayName": "Microsoft Purview",
+        "description": "Govern, protect, and manage your data estate",
+        "keywords": "Data Governance,Unified Governance,mp,Data Management,Microsoft Purview",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-purview/",
+          "documentationUrl": "https://learn.microsoft.com/purview/",
+          "url": "acom:/products/purview/",
+          "slaUrl": "/en-us/support/legal/sla/purview/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "chaos-studio",
+        "displayName": "Azure Chaos Studio",
+        "description": "Improve application resilience by introducing faults and simulating outages",
+        "keywords": "reliability,chaos engineering,fault injection,cs,fault,resilience,testing",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/chaos-studio/",
+          "documentationUrl": "https://aka.ms/chaosdocs",
+          "url": "acom:/products/chaos-studio",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "managed-grafana",
+        "displayName": "Azure Managed Grafana",
+        "description": "Deploy Grafana dashboards as a fully managed Azure service",
+        "keywords": "kubernetes,grafana,data explorer,prometheus,adx,amg,aks,managed,monitor",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/managed-grafana/",
+          "documentationUrl": "https://aka.ms/azuremanagedgrafanadocs",
+          "url": "acom:/services/managed-grafana/",
+          "slaUrl": "/en-us/support/legal/sla/managed-grafana/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "graph-data-connect",
+        "displayName": "Microsoft Graph Data Connect",
+        "description": "A secure, high-throughput connector designed to copy select Microsoft 365 productivity datasets into your Azure tenant",
+        "keywords": "connect,graph,gdc,microsoft graph data connect,scalable data",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/graph-data-connect/",
+          "documentationUrl": "docs:graph/data-connect-concept-overview",
+          "url": "acom:/products/graph-data-connect/",
+          "slaUrl": "/en-us/support/legal/sla/graph-data-connect/",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "ai-machine-learning",
+    "displayName": "AI + machine learning",
+    "products": [
+      {
+        "slug": "bot-services",
+        "displayName": "Azure AI Bot Service",
+        "description": "Create bots and connect them across channels",
+        "keywords": "framework,computing,cloud,aabs",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/bot-services/",
+          "documentationUrl": "link:https://docs.botframework.com/en-us/azure-bot-service/",
+          "url": "acom:/products/bot-services/",
+          "slaUrl": "/en-us/support/legal/sla/bot-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "search",
+        "displayName": "Azure AI Search",
+        "description": "Enterprise scale search for app development",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/search/",
+          "documentationUrl": "docs:/azure/search/",
+          "url": "acom:/products/ai-services/ai-search/",
+          "slaUrl": "/en-us/support/legal/sla/search/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "genomics",
+        "displayName": "Microsoft Genomics",
+        "description": "Power genome sequencing & research insights",
+        "keywords": "sequencing,mg,genome,analysis",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/genomics/",
+          "documentationUrl": "docs:azure/genomics/",
+          "url": "acom:/products/genomics/",
+          "slaUrl": "/en-us/support/legal/sla/genomics/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "machine-learning-service",
+        "displayName": "Azure Machine Learning",
+        "description": "Use an enterprise-grade service for the end-to-end machine learning lifecycle",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/machine-learning/",
+          "documentationUrl": "docs:azure/machine-learning/service/",
+          "url": "acom:/products/machine-learning/",
+          "slaUrl": "/en-us/support/legal/sla/machine-learning-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "machine-learning-studio",
+        "displayName": "Machine Learning Studio (classic)",
+        "description": "ML Studio is the GUI-based integrated development environment for constructing and operationalizing Machine Learning workflows",
+        "keywords": "mls",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/machine-learning-studio/",
+          "documentationUrl": "docs:/azure/machine-learning/studio/",
+          "url": "acom:/services/machine-learning-studio/",
+          "slaUrl": "/en-us/support/legal/sla/machine-learning-studio/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cognitive-services",
+        "displayName": "Azure AI services",
+        "description": "Add cognitive capabilities to apps with APIs and AI services",
+        "keywords": "speech services,bing custom search,ink recognizer,immersive reader,azure ai content safety,bing entity search,custom vision,speaker recognition,translator speech,language understanding,qna maker,aas,anomaly detector,bing autosuggest,translator text,bing spell check,computer vision,text analytics,personalizer,bing search,face",
+        "freeAccountBenefits": [
+          {
+            "key": "anomaly_detector-a_20k_trans",
+            "value": "20,000 transactions, standard instance"
+          },
+          {
+            "key": "cognitive_service_for_language",
+            "value": "5,000 Cognitive Service for Language text records, \"Pay as you go\" payment option, standard instance"
+          },
+          {
+            "key": "cognitive_service_for_personalizer",
+            "value": "50,000 transactions, S0 instance"
+          },
+          {
+            "key": "computer_vision-a_5k_trans",
+            "value": "5,000 transactions (across the S1, S2, and S3 features), \"Pay as you go\" payment option, standard tier"
+          },
+          {
+            "key": "content_moderator-a_10K_trans",
+            "value": "10,000 transactions, standard instance"
+          },
+          {
+            "key": "custom_vision_service-a_10K_prediction",
+            "value": "10,000 prediction transactions"
+          },
+          {
+            "key": "custom_vision_service-b_1_training",
+            "value": "1 training hour"
+          },
+          {
+            "key": "custom_vision_service-c_5k_images",
+            "value": "5,000 images per free project (2 free projects; up to 10,000 images total)"
+          },
+          {
+            "key": "face_api-a_30K_trans",
+            "value": "30,000 transactions, standard instance"
+          },
+          {
+            "key": "language_service-a_5k_cognitive_services",
+            "value": "5,000 Cognitive Service for Language text records, \"Pay as you go\" payment option, standard instance"
+          },
+          {
+            "key": "language_understanding_intelligent_services-a_10k_text_request",
+            "value": "10,000 text request (speech to intent) transactions, \"Pay as you go\" payment option, standard instance"
+          },
+          {
+            "key": "personalizer-a_50000_tran",
+            "value": "50,000 transactions, S0 instance"
+          },
+          {
+            "key": "qna_maker-a_3_days",
+            "value": "3 days of unlimited managed documents, standard instance"
+          },
+          {
+            "key": "standard_instances_transactions",
+            "value": "20,000 transactions, standard instance"
+          },
+          {
+            "key": "standard_instances_transactions_content_moderator",
+            "value": "10,000 transactions, standard instance"
+          },
+          {
+            "key": "translator_text_api-a_2_mil_characters",
+            "value": "2 million characters (across standard text, custom text, and custom document), \"Pay as you go\" payment option, S1 instance"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cognitive-services/",
+          "documentationUrl": "docs:/azure/cognitive-services/",
+          "url": "acom:/products/ai-services/",
+          "slaUrl": "/en-us/support/legal/sla/cognitive-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "open-datasets",
+        "displayName": "Azure Open Datasets",
+        "description": "Cloud platform to host and share curated open datasets to accelerate development of machine learning models",
+        "keywords": "aod",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/open-datasets/",
+          "documentationUrl": "docs:/azure/open-datasets/",
+          "url": "acom:/services/open-datasets/",
+          "slaUrl": "/en-us/support/legal/sla/open-datasets/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "openai-service",
+        "displayName": "Azure OpenAI",
+        "description": "Apply advanced coding and language models to a variety of use cases",
+        "keywords": "ai models,gpt-3,codex,ai generative models,open ai,summarization,dall-e,aoas",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cognitive-services/openai-service/",
+          "documentationUrl": "docs:/azure/cognitive-services/openai/overview",
+          "url": "acom:/products/cognitive-services/openai-service/",
+          "slaUrl": "/en-us/support/legal/sla/cognitive-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "health-bot",
+        "displayName": "Health Bot",
+        "description": "A managed service purpose-built for development of virtual healthcare assistants",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/bot-services/health-bot/",
+          "documentationUrl": "docs:/healthbot/",
+          "url": "acom:/products/bot-services/health-bot",
+          "slaUrl": "/en-us/support/legal/sla/health-bot/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "metrics-advisor",
+        "displayName": "Azure AI Metrics Advisor",
+        "description": "An AI service that monitors metrics and diagnoses issues",
+        "keywords": "detection,analytics,ai,advisor,anomaly,monitor,metrics,aamd",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/metrics-advisor/",
+          "documentationUrl": "https://aka.ms/GualalaDocs",
+          "url": "acom:/products/metrics-advisor/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "form-recognizer",
+        "displayName": "Azure AI Document Intelligence",
+        "description": "Accelerate information extraction from documents",
+        "keywords": "recognizer,documents,ai,aadi,form,text",
+        "freeAccountBenefits": [
+          {
+            "key": "a_500_pages",
+            "value": "500 pages (across Custom and Pre-built), \"Pay as you go\" payment option, S0 instance"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/form-recognizer/",
+          "documentationUrl": "docs:azure/applied-ai-services/form-recognizer/overview?tabs=v3-0",
+          "url": "acom:/products/form-recognizer/",
+          "slaUrl": "/en-us/support/legal/sla/summary/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "video-indexer",
+        "displayName": "Azure AI Video Indexer",
+        "description": "Extract AI based insights from videos",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/video-indexer/",
+          "documentationUrl": "https://learn.microsoft.com/azure/azure-video-indexer/",
+          "url": "acom:/products/ai-video-indexer/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "content-understanding",
+        "displayName": "Azure AI Content Understanding",
+        "description": "Unlock insights for intelligent local actions and global visibility. Enabled by Azure Arc",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/content-understanding/",
+          "documentationUrl": "https://learn.microsoft.com/azure/ai-services/ ",
+          "url": "acom:/products/ai-services/ai-content-understanding/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "sre-agent",
+        "displayName": "Azure SRE Agent",
+        "description": "Accelerate root-cause analysis with a collaborative AI agent that improves site reliability.",
+        "keywords": "SRE Agent Price Calculator,SRE Agent pricing,SRE Agent price,SRE Agent cost,Azure SRE Agent",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/sre-agent",
+          "documentationUrl": "https://aka.ms/sreagent/docs",
+          "url": "acom:/products/sre-agent",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "iot",
+    "displayName": "Internet of Things",
+    "products": [
+      {
+        "slug": "iot-hub",
+        "displayName": "Azure IoT Hub",
+        "description": "Connect, monitor, and manage billions of IoT assets",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/iot-hub/",
+          "documentationUrl": "docs:azure/iot-hub/",
+          "url": "acom:/products/iot-hub/",
+          "slaUrl": "/en-us/support/legal/sla/iot-hub/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "iot-edge",
+        "displayName": "Azure IoT Edge",
+        "description": "Extend cloud intelligence and analytics to edge devices",
+        "keywords": "management,aie,cloud data",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/iot-edge/",
+          "documentationUrl": "docs:/azure/iot-edge/",
+          "url": "acom:/products/iot-edge/",
+          "slaUrl": "/en-us/support/legal/sla/iot-edge/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "iot-central",
+        "displayName": "Azure IoT Central",
+        "description": "Go from proof of concept to proof of value",
+        "keywords": "iot management,aic,iot sass",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/iot-central/",
+          "documentationUrl": "docs:azure/iot-central/",
+          "url": "acom:/products/iot-central/",
+          "slaUrl": "/en-us/support/legal/sla/iot-central/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "digital-twins",
+        "displayName": "Azure Digital Twins",
+        "description": "Use IoT spatial intelligence to create models of physical environments",
+        "keywords": "industrial iot,model,adt,simulation",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/digital-twins/",
+          "documentationUrl": "docs:azure/digital-twins",
+          "url": "acom:/products/digital-twins/",
+          "slaUrl": "/en-us/support/legal/sla/digital-twins/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "time-series-insights",
+        "displayName": "Azure Time Series Insights",
+        "description": "Visualize IoT data in real time",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/time-series-insights/",
+          "documentationUrl": "docs:/azure/time-series-insights/",
+          "url": "acom:/products/time-series-insights/",
+          "slaUrl": "/en-us/support/legal/sla/time-series-insights/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-maps",
+        "displayName": "Azure Maps",
+        "description": "Add location data and mapping visuals to business applications and solutions",
+        "keywords": "location based services,am,cloud,maps api",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-maps/",
+          "documentationUrl": "docs:/azure/azure-maps/index",
+          "url": "acom:/services/azure-maps/",
+          "slaUrl": "/en-us/support/legal/sla/azure-maps/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "functions",
+        "displayName": "Azure Functions",
+        "description": "Execute event-driven serverless code functions with an end-to-end development experience",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/functions/",
+          "documentationUrl": "docs:/azure/azure-functions/",
+          "url": "acom:/products/functions/",
+          "slaUrl": "/en-us/support/legal/sla/functions/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "event-grid",
+        "displayName": "Event Grid",
+        "description": "Reliable message delivery at massive scale",
+        "keywords": "eg,handling,handler,publish subscribe model,pubsub",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/event-grid/",
+          "documentationUrl": "docs:/azure/event-grid/",
+          "url": "acom:/products/event-grid/",
+          "slaUrl": "/en-us/support/legal/sla/event-grid/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "machine-learning-service",
+        "displayName": "Azure Machine Learning",
+        "description": "Use an enterprise-grade service for the end-to-end machine learning lifecycle",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/machine-learning/",
+          "documentationUrl": "docs:azure/machine-learning/service/",
+          "url": "acom:/products/machine-learning/",
+          "slaUrl": "/en-us/support/legal/sla/machine-learning-service/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "machine-learning-studio",
+        "displayName": "Machine Learning Studio (classic)",
+        "description": "ML Studio is the GUI-based integrated development environment for constructing and operationalizing Machine Learning workflows",
+        "keywords": "mls",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/machine-learning-studio/",
+          "documentationUrl": "docs:/azure/machine-learning/studio/",
+          "url": "acom:/services/machine-learning-studio/",
+          "slaUrl": "/en-us/support/legal/sla/machine-learning-studio/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "stream-analytics",
+        "displayName": "Azure Stream Analytics",
+        "description": "Real-time analytics on fast-moving streaming data",
+        "keywords": "asa,data",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/stream-analytics/",
+          "documentationUrl": "docs:/azure/stream-analytics/",
+          "url": "acom:/products/stream-analytics/",
+          "slaUrl": "/en-us/support/legal/sla/stream-analytics/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "logic-apps",
+        "displayName": "Logic Apps",
+        "description": "Automate the access and use of data across clouds",
+        "keywords": "integration,automate,la",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/logic-apps/",
+          "documentationUrl": "docs:/azure/logic-apps/",
+          "url": "acom:/products/logic-apps/",
+          "slaUrl": "/en-us/support/legal/sla/logic-apps/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "notification-hubs",
+        "displayName": "Notification Hubs",
+        "description": "Send push notifications to any platform from any back end",
+        "keywords": "azure notification,nh,develop apps,app development",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/notification-hubs/",
+          "documentationUrl": "docs:/azure/notification-hubs/",
+          "url": "acom:/services/notification-hubs/",
+          "slaUrl": "/en-us/support/legal/sla/notification-hubs/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cosmos-db",
+        "displayName": "Azure Cosmos DB",
+        "description": "Build or modernize scalable, high-performance apps",
+        "keywords": "nosql database,acd,data management,cloud data",
+        "freeAccountBenefits": [
+          {
+            "key": "rus_standard_provisioned",
+            "value": "400 RU/s of standard provisioned throughput"
+          },
+          {
+            "key": "transactional_storage",
+            "value": "25 GB of transactional storage"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cosmos-db/",
+          "documentationUrl": "docs:azure/cosmos-db/",
+          "url": "acom:/products/cosmos-db/",
+          "slaUrl": "/en-us/support/legal/sla/cosmos-db/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "api-management",
+        "displayName": "API Management",
+        "description": "Publish APIs to developers, partners, and employees securely and at scale",
+        "keywords": "cloud system,am",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/api-management/",
+          "documentationUrl": "docs:/azure/api-management/",
+          "url": "acom:/products/api-management/",
+          "slaUrl": "/en-us/support/legal/sla/api-management/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "windows-10-iot-core",
+        "displayName": "Windows 10 IoT Core Services",
+        "description": "Long-term OS support and services to manage device updates and assess device health",
+        "keywords": "service,wics",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/windows-10-iot-core/",
+          "documentationUrl": "docs:/windows/iot-core/commercialize-your-device/iotcoreservicesoverview",
+          "url": "acom:/products/windows-10-iot-core/",
+          "slaUrl": "/en-us/support/legal/sla/windows-10-iot-core/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-sql-edge",
+        "displayName": "Azure SQL Edge",
+        "description": "Consume Services privately on Azure Platform",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-sql-edge/",
+          "documentationUrl": "docs:azure/azure-sql-edge/",
+          "url": "acom:/products/azure-sql/edge/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "iot-operations",
+        "displayName": "Azure IoT Operations",
+        "description": "Unlock insights for intelligent local actions and global visibility. Enabled by Azure Arc",
+        "keywords": "device,azure iot ops,azure device registry,operations,adr,aio,iot,registry,azure iot operations",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/iot-operations/",
+          "documentationUrl": "docs:/azure/iot-operations/",
+          "url": "acom:/products/iot-operations",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "integration",
+    "displayName": "Integration",
+    "products": [
+      {
+        "slug": "logic-apps",
+        "displayName": "Logic Apps",
+        "description": "Automate the access and use of data across clouds",
+        "keywords": "integration,automate,la",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/logic-apps/",
+          "documentationUrl": "docs:/azure/logic-apps/",
+          "url": "acom:/products/logic-apps/",
+          "slaUrl": "/en-us/support/legal/sla/logic-apps/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "service-bus",
+        "displayName": "Service Bus",
+        "description": "Connect across private and public cloud environments",
+        "keywords": "service oriented architecture,sb",
+        "freeAccountBenefits": [
+          {
+            "key": "a_750_base",
+            "value": "750 base unit hours"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/service-bus/",
+          "documentationUrl": "docs:/azure/service-bus/",
+          "url": "acom:/products/service-bus/",
+          "slaUrl": "/en-us/support/legal/sla/service-bus/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "api-management",
+        "displayName": "API Management",
+        "description": "Publish APIs to developers, partners, and employees securely and at scale",
+        "keywords": "cloud system,am",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/api-management/",
+          "documentationUrl": "docs:/azure/api-management/",
+          "url": "acom:/products/api-management/",
+          "slaUrl": "/en-us/support/legal/sla/api-management/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "event-grid",
+        "displayName": "Event Grid",
+        "description": "Reliable message delivery at massive scale",
+        "keywords": "eg,handling,handler,publish subscribe model,pubsub",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/event-grid/",
+          "documentationUrl": "docs:/azure/event-grid/",
+          "url": "acom:/products/event-grid/",
+          "slaUrl": "/en-us/support/legal/sla/event-grid/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "energy-data-services",
+        "displayName": "Azure Data Manager for Energy",
+        "description": "Reduce time, risk, and cost of energy exploration and production",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/energy-data-services/",
+          "documentationUrl": "https://learn.microsoft.com/azure/energy-data-services/",
+          "url": "acom:/products/data-manager-for-energy/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "identity",
+    "displayName": "Identity",
+    "products": [
+      {
+        "slug": "active-directory",
+        "displayName": "Microsoft Entra ID (formerly Azure AD)",
+        "description": "Synchronize on-premises directories and enable single sign-on",
+        "keywords": "ad,infrastructure as a service,iaas",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/active-directory/",
+          "documentationUrl": "docs:/azure/active-directory/",
+          "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id",
+          "slaUrl": "/en-us/support/legal/sla/active-directory/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "active-directory-ds",
+        "displayName": "Microsoft Entra Domain Services",
+        "description": "Manage your domain controllers in the cloud",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/active-directory-ds/",
+          "documentationUrl": "docs:/azure/active-directory-domain-services/",
+          "url": "acom:/products/microsoft-entra-ds",
+          "slaUrl": "/en-us/support/legal/sla/active-directory-ds/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "active-directory-b2c",
+        "displayName": "Azure Active Directory B2C",
+        "description": "Consumer identity and access management in the cloud",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/active-directory-b2c/",
+          "documentationUrl": "docs:/azure/active-directory-b2c/",
+          "url": "acom:/products/active-directory-b2c/",
+          "slaUrl": "/en-us/support/legal/sla/active-directory-b2c/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "microsoft-entra-external-id",
+        "displayName": "Microsoft Entra External ID",
+        "description": "Personalize and help secure access to any application for customers and partners",
+        "keywords": "external",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/microsoft-entra-external-id/",
+          "documentationUrl": "https://aka.ms/ExternalIDDocs",
+          "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-external-id",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "security",
+    "displayName": "Security",
+    "products": [
+      {
+        "slug": "defender-for-cloud",
+        "displayName": "Microsoft Defender for Cloud",
+        "description": "Protect your multi-cloud and hybrid environments",
+        "keywords": "storage security,storage malware scanning,storage malware protection,mdc,defender for storage",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/defender-for-cloud/",
+          "documentationUrl": "docs:azure/security-center/azure-defender",
+          "url": "acom:/products/defender-for-cloud/",
+          "slaUrl": "/en-us/support/legal/sla/security-center/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "ddos-protection",
+        "displayName": "Azure DDoS Protection",
+        "description": "Protect your Azure resources from distributed denial-of-service (DDoS) attacks",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/ddos-protection/",
+          "documentationUrl": "docs:azure/ddos-protection/ddos-protection-overview",
+          "url": "acom:/products/ddos-protection/",
+          "slaUrl": "/en-us/support/legal/sla/ddos-protection/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "active-directory",
+        "displayName": "Microsoft Entra ID (formerly Azure AD)",
+        "description": "Synchronize on-premises directories and enable single sign-on",
+        "keywords": "ad,infrastructure as a service,iaas",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/active-directory/",
+          "documentationUrl": "docs:/azure/active-directory/",
+          "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id",
+          "slaUrl": "/en-us/support/legal/sla/active-directory/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-sentinel",
+        "displayName": "Microsoft Sentinel",
+        "description": "Cloud-native SIEM and intelligent security analytics",
+        "keywords": "as,SIEM",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/microsoft-sentinel/",
+          "documentationUrl": "go:2073774",
+          "url": "https://www.microsoft.com/security/business/siem-and-xdr/microsoft-sentinel",
+          "slaUrl": "/en-us/support/legal/sla/azure-sentinel/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "vpn-gateway",
+        "displayName": "VPN Gateway",
+        "description": "Establish secure, cross-premises connectivity",
+        "keywords": "virtual network,vg,cloud infrastructure as a service,iaas,vpng",
+        "freeAccountBenefits": [
+          {
+            "key": "gateway_hours",
+            "value": "750 gateway hours of type VpnGw1"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/vpn-gateway/",
+          "documentationUrl": "docs:/azure/vpn-gateway/",
+          "url": "acom:/products/vpn-gateway/",
+          "slaUrl": "/en-us/support/legal/sla/vpn-gateway/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "key-vault",
+        "displayName": "Key Vault",
+        "description": "Safeguard and maintain control of keys and other secrets",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/key-vault/",
+          "documentationUrl": "docs:/azure/key-vault/",
+          "url": "acom:/products/key-vault/",
+          "slaUrl": "/en-us/support/legal/sla/key-vault/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-dedicated-hsm",
+        "displayName": "Azure Dedicated HSM",
+        "description": "Manage hardware security modules that you use in the cloud",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-dedicated-hsm/",
+          "documentationUrl": "link:https://aka.ms/AzureDedicatedHSMdocumentation",
+          "url": "acom:/services/azure-dedicated-hsm/",
+          "slaUrl": "/en-us/support/legal/sla/azure-dedicated-hsm/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "application-gateway",
+        "displayName": "Application Gateway",
+        "description": "Build secure, scalable, highly available web front ends in Azure",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/application-gateway/",
+          "documentationUrl": "docs:/azure/application-gateway/",
+          "url": "acom:/products/application-gateway/",
+          "slaUrl": "/en-us/support/legal/sla/application-gateway/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "confidential-ledger",
+        "displayName": "Azure confidential ledger",
+        "description": "Tamperproof, unstructured data store hosted in trusted execution environments (TEEs) and backed by cryptographically verifiable evidence",
+        "keywords": "confidential,acl,ledger,storage",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/confidential-ledger/",
+          "documentationUrl": "docs:azure/confidential-ledger/",
+          "url": "acom:/products/azure-confidential-ledger/",
+          "slaUrl": "/en-us/support/legal/sla/confidential-ledger/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "defender-easm",
+        "displayName": "Defender External Attack Surface Management",
+        "description": "Safeguard the digital experience by discovering all internet-exposed resources with Microsoft Defender External Attack Surface Management (EASM)",
+        "keywords": "external attack surface management,deasm,attack surface,attack surface management",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/defender-external-attack-surface-management/",
+          "url": "acom:/products/defender-external-attack-surface-management/",
+          "slaUrl": "/en-us/support/legal/sla/defender-easm/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "microsoft-security-copilot",
+        "displayName": "Microsoft Security Copilot",
+        "description": "Protect at the speed and scale of AI with a generative AI-powered assistant",
+        "keywords": "security",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/microsoft-copilot-for-security/",
+          "documentationUrl": "https://learn.microsoft.com/security-copilot/microsoft-security-copilot",
+          "url": "https://www.microsoft.com/security/business/ai-machine-learning/microsoft-copilot-security",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "trusted-signing",
+        "displayName": "Trusted Signing",
+        "description": "Secure your applications through a fully managed end-to-end signing service for code, documents, applications, and more",
+        "keywords": "certificate,acs,hsm,azure code signing",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/trusted-signing/",
+          "documentationUrl": "https://learn.microsoft.com/azure/trusted-signing/",
+          "url": "acom:/products/trusted-signing",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "purview",
+        "displayName": "Microsoft Purview",
+        "description": "Govern, protect, and manage your data estate",
+        "keywords": "Data Governance,Unified Governance,mp,Data Management,Microsoft Purview",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-purview/",
+          "documentationUrl": "https://learn.microsoft.com/purview/",
+          "url": "acom:/products/purview/",
+          "slaUrl": "/en-us/support/legal/sla/purview/",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "developer-tools",
+    "displayName": "Developer tools",
+    "products": [
+      {
+        "slug": "azure-devops",
+        "displayName": "Azure DevOps",
+        "description": "Services for teams to share code, track work, and ship software",
+        "keywords": "ad,devops server",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/devops/",
+          "documentationUrl": "docs:/azure/devops/?view=azure-devops",
+          "url": "acom:/products/devops/",
+          "slaUrl": "/en-us/support/legal/sla/azure-devops/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "lab-services",
+        "displayName": "Azure Lab Services",
+        "description": "Set up virtual labs for classes, training, hackathons, and other related scenarios",
+        "keywords": "cloud test lab,computing,lab cloud,als,virtual lab cloud",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/lab-services/",
+          "documentationUrl": "docs:azure/lab-services/",
+          "url": "acom:/products/lab-services/",
+          "slaUrl": "/en-us/support/legal/sla/lab-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "devtest-lab",
+        "displayName": "Azure DevTest Labs",
+        "description": "Quickly create environments using reusable templates and artifacts",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/devtest-lab/",
+          "documentationUrl": "docs:azure/lab-services/devtest-lab-overview",
+          "url": "acom:/products/devtest-lab/",
+          "slaUrl": "/en-us/support/legal/sla/devtest-lab/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "app-configuration",
+        "displayName": "App Configuration",
+        "description": "Fast, scalable parameter storage for app configuration",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/app-configuration/",
+          "documentationUrl": "docs:/azure/azure-app-configuration/",
+          "url": "acom:/products/app-configuration/",
+          "slaUrl": "/en-us/support/legal/sla/app-configuration/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "dev-box",
+        "displayName": "Microsoft Dev Box",
+        "description": "Streamline development with secure, ready-to-code workstations in the cloud",
+        "keywords": "microsoft dev box,mdb,virtual desktop,desk as a service,cloud based ide,developer desktop",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/dev-box/",
+          "documentationUrl": "docs:azure/dev-box/overview-what-is-microsoft-dev-box",
+          "url": "acom:/services/dev-box/",
+          "slaUrl": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "playwright-testing",
+        "displayName": "Microsoft Playwright Testing",
+        "description": "Scalable end-to-end testing for modern web apps",
+        "keywords": "microsoft web app testing,microsoft playwright testing service,playwright testing,cross-browser automation,microsoft e2e testing,mpt,playwright",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/playwright-testing/",
+          "documentationUrl": "https://aka.ms/MPT-docs ",
+          "url": "acom:/products/playwright-testing/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "githubenterprise",
+        "displayName": "GitHub Enterprise",
+        "description": "Build, scale, and deliver secure software.",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/githubenterprise/",
+          "documentationUrl": "https://aka.ms/gh-devdocs",
+          "url": "acom:/products/github",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "devops",
+    "displayName": "DevOps",
+    "products": [
+      {
+        "slug": "azure-devops",
+        "displayName": "Azure DevOps",
+        "description": "Services for teams to share code, track work, and ship software",
+        "keywords": "ad,devops server",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/devops/",
+          "documentationUrl": "docs:/azure/devops/?view=azure-devops",
+          "url": "acom:/products/devops/",
+          "slaUrl": "/en-us/support/legal/sla/azure-devops/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "lab-services",
+        "displayName": "Azure Lab Services",
+        "description": "Set up virtual labs for classes, training, hackathons, and other related scenarios",
+        "keywords": "cloud test lab,computing,lab cloud,als,virtual lab cloud",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/lab-services/",
+          "documentationUrl": "docs:azure/lab-services/",
+          "url": "acom:/products/lab-services/",
+          "slaUrl": "/en-us/support/legal/sla/lab-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "devtest-lab",
+        "displayName": "Azure DevTest Labs",
+        "description": "Quickly create environments using reusable templates and artifacts",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/devtest-lab/",
+          "documentationUrl": "docs:azure/lab-services/devtest-lab-overview",
+          "url": "acom:/products/devtest-lab/",
+          "slaUrl": "/en-us/support/legal/sla/devtest-lab/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "monitor",
+        "displayName": "Azure Monitor",
+        "description": "Full observability into your applications, infrastructure, and network",
+        "keywords": "kubernetes,application insights,am,prometheus,k8s,notifications,log analytics,metrics,alerts,cortex",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/monitor/",
+          "documentationUrl": "docs:azure/monitoring-and-diagnostics/",
+          "url": "acom:/products/monitor/",
+          "slaUrl": "/en-us/support/legal/sla/monitor/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "load-testing",
+        "displayName": "Azure App Testing",
+        "description": "Optimize reliability and quality through scalable end-to-end testing​",
+        "keywords": "microsoft web app testing,microsoft playwright testing service,playwright testing,cross-browser automation,microsoft e2e testing,alt,mpt,playwright",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/app-testing/",
+          "documentationUrl": "docs:azure/app-testing/",
+          "url": "acom:/products/app-testing/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "dev-box",
+        "displayName": "Microsoft Dev Box",
+        "description": "Streamline development with secure, ready-to-code workstations in the cloud",
+        "keywords": "microsoft dev box,mdb,virtual desktop,desk as a service,cloud based ide,developer desktop",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/dev-box/",
+          "documentationUrl": "docs:azure/dev-box/overview-what-is-microsoft-dev-box",
+          "url": "acom:/services/dev-box/",
+          "slaUrl": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "playwright-testing",
+        "displayName": "Microsoft Playwright Testing",
+        "description": "Scalable end-to-end testing for modern web apps",
+        "keywords": "microsoft web app testing,microsoft playwright testing service,playwright testing,cross-browser automation,microsoft e2e testing,mpt,playwright",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/playwright-testing/",
+          "documentationUrl": "https://aka.ms/MPT-docs ",
+          "url": "acom:/products/playwright-testing/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "githubenterprise",
+        "displayName": "GitHub Enterprise",
+        "description": "Build, scale, and deliver secure software.",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/githubenterprise/",
+          "documentationUrl": "https://aka.ms/gh-devdocs",
+          "url": "acom:/products/github",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "sre-agent",
+        "displayName": "Azure SRE Agent",
+        "description": "Accelerate root-cause analysis with a collaborative AI agent that improves site reliability.",
+        "keywords": "SRE Agent Price Calculator,SRE Agent pricing,SRE Agent price,SRE Agent cost,Azure SRE Agent",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/sre-agent",
+          "documentationUrl": "https://aka.ms/sreagent/docs",
+          "url": "acom:/products/sre-agent",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "management-tools",
+    "displayName": "Management and governance",
+    "products": [
+      {
+        "slug": "cloud-shell",
+        "displayName": "Cloud Shell",
+        "description": "Streamline Azure administration with a browser-based shell",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cloud-shell/",
+          "documentationUrl": "docs:/azure/cloud-shell/overview/",
+          "url": "acom:/features/cloud-shell/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "advisor",
+        "displayName": "Azure Advisor",
+        "description": "Your personalized Azure best practices recommendation engine",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/advisor/",
+          "documentationUrl": "docs:/azure/advisor/",
+          "url": "acom:/products/advisor/",
+          "slaUrl": "/en-us/support/legal/sla/advisor/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "backup",
+        "displayName": "Azure Backup",
+        "description": "Simplify data protection with built-in backup management at scale",
+        "keywords": "ab,cloud,storage",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/backup/",
+          "documentationUrl": "docs:/azure/backup/",
+          "url": "acom:/services/backup/",
+          "slaUrl": "/en-us/support/legal/sla/backup/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cost-management",
+        "displayName": "Microsoft Cost Management",
+        "description": "Monitor, allocate, and optimize cloud costs with transparency, accuracy, and efficiency",
+        "keywords": "mcm,optimization",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cost-management/",
+          "documentationUrl": "docs:azure/cost-management/",
+          "url": "acom:/products/cost-management/",
+          "slaUrl": "/en-us/support/legal/sla/cost-management/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-policy",
+        "displayName": "Azure Policy",
+        "description": "Implement corporate governance and standards at scale",
+        "keywords": "compliance,control,ap,governance",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-policy/",
+          "documentationUrl": "docs:/azure/governance/policy/overview/",
+          "url": "acom:/services/azure-policy/",
+          "slaUrl": "/en-us/support/legal/sla/azure-policy/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "monitor",
+        "displayName": "Azure Monitor",
+        "description": "Full observability into your applications, infrastructure, and network",
+        "keywords": "kubernetes,application insights,am,prometheus,k8s,notifications,log analytics,metrics,alerts,cortex",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/monitor/",
+          "documentationUrl": "docs:azure/monitoring-and-diagnostics/",
+          "url": "acom:/products/monitor/",
+          "slaUrl": "/en-us/support/legal/sla/monitor/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "site-recovery",
+        "displayName": "Azure Site Recovery",
+        "description": "Keep your business running with built-in disaster recovery service",
+        "keywords": "asr,cloud storage service",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/site-recovery/",
+          "documentationUrl": "docs:/azure/site-recovery/",
+          "url": "acom:/products/site-recovery/",
+          "slaUrl": "/en-us/support/legal/sla/site-recovery/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "automation",
+        "displayName": "Automation",
+        "description": "Simplify cloud management with process automation",
+        "keywords": "cloud data management,cloud data",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/automation/",
+          "documentationUrl": "docs:/azure/automation/",
+          "url": "acom:/products/automation/",
+          "slaUrl": "/en-us/support/legal/sla/automation/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "traffic-manager",
+        "displayName": "Traffic Manager",
+        "description": "Route incoming traffic for high performance and availability",
+        "keywords": "tm,load balancing",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/traffic-manager/",
+          "documentationUrl": "docs:/azure/traffic-manager/",
+          "url": "acom:/products/traffic-manager/",
+          "slaUrl": "/en-us/support/legal/sla/traffic-manager/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "network-watcher",
+        "displayName": "Network Watcher",
+        "description": "Network performance monitoring and diagnostics solution",
+        "keywords": "nw",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/network-watcher/",
+          "documentationUrl": "docs:/azure/network-watcher/",
+          "url": "acom:/services/network-watcher/",
+          "slaUrl": "/en-us/support/legal/sla/network-watcher/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "managed-applications",
+        "displayName": "Azure Managed Applications",
+        "description": "Simplify management of cloud offerings",
+        "keywords": "cloud hosting providers,ama",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/managed-applications/",
+          "documentationUrl": "docs:/azure/managed-applications/overview",
+          "url": "acom:/services/managed-applications/",
+          "slaUrl": "/en-us/support/legal/sla/managed-applications/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-migrate",
+        "displayName": "Azure Migrate",
+        "description": "Simplify migration and modernization with a unified platform",
+        "keywords": "vm migration,am,data migrations software,migration plan,cloud assessment",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-migrate/",
+          "documentationUrl": "docs:azure/migrate/migrate-overview",
+          "url": "acom:/services/azure-migrate/",
+          "slaUrl": "/en-us/support/legal/sla/azure-migrate/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "scheduler",
+        "displayName": "Scheduler",
+        "description": "Run your jobs on simple or complex recurring schedules",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/scheduler/",
+          "documentationUrl": "docs:/azure/scheduler/",
+          "url": "acom:/services/scheduler/",
+          "slaUrl": "/en-us/support/legal/sla/scheduler/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-lighthouse",
+        "displayName": "Azure Lighthouse",
+        "description": "Empowering service providers to manage customers at scale and with precision",
+        "keywords": "cloud management,al,azure managed services,cloud automation,cloud service automation",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-lighthouse/",
+          "documentationUrl": "docs:azure/lighthouse/",
+          "url": "acom:/services/azure-lighthouse/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "resource-mover",
+        "displayName": "Azure Resource Mover",
+        "description": "Simplify how you move multiple resources between Azure regions",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/resource-mover/",
+          "documentationUrl": "https://learn.microsoft.com/azure/resource-mover/",
+          "url": "acom:/products/resource-mover/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "update-management-center",
+        "displayName": "Azure Update Manager",
+        "description": "Centrally manage updates and compliance at scale",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-update-management-center/",
+          "documentationUrl": "go:2170016",
+          "url": "acom:/services/azure-update-management-center/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "purview",
+        "displayName": "Microsoft Purview",
+        "description": "Govern, protect, and manage your data estate",
+        "keywords": "Data Governance,Unified Governance,mp,Data Management,Microsoft Purview",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-purview/",
+          "documentationUrl": "https://learn.microsoft.com/purview/",
+          "url": "acom:/products/purview/",
+          "slaUrl": "/en-us/support/legal/sla/purview/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "sre-agent",
+        "displayName": "Azure SRE Agent",
+        "description": "Accelerate root-cause analysis with a collaborative AI agent that improves site reliability.",
+        "keywords": "SRE Agent Price Calculator,SRE Agent pricing,SRE Agent price,SRE Agent cost,Azure SRE Agent",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/sre-agent",
+          "documentationUrl": "https://aka.ms/sreagent/docs",
+          "url": "acom:/products/sre-agent",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "media",
+    "displayName": "Media",
+    "products": [
+      {
+        "slug": "media-services",
+        "displayName": "Media Services",
+        "description": "Encode, store, and stream video and audio at scale",
+        "keywords": "ms,service management",
+        "freeAccountBenefits": [
+          {
+            "key": "a_vod_20_standard_output",
+            "value": "For Type \"Video on Demand (VoD) Encoding\", 20 standard output content minutes"
+          },
+          {
+            "key": "b_streaming",
+            "value": "For Type \"Streaming\", roughly 5 hours of the standard streaming endpoint tier"
+          },
+          {
+            "key": "c_live_video_transciptions",
+            "value": "For Type \"Live Video\", 5 hours of the Live Transcriptions live encoding type"
+          },
+          {
+            "key": "d_live_video_pass_through",
+            "value": "For Type \"Live Video\", 5 hours of the Running Pass-through live encoding type"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/media-services/",
+          "documentationUrl": "docs:/azure/media-services/",
+          "url": "acom:/services/media-services/",
+          "slaUrl": "/en-us/support/legal/sla/media-services/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cdn",
+        "displayName": "Content Delivery Network",
+        "description": "Fast, reliable content delivery network with global reach",
+        "keywords": "cdn",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cdn/",
+          "documentationUrl": "docs:/azure/cdn/",
+          "url": "acom:/products/cdn/",
+          "slaUrl": "/en-us/support/legal/sla/cdn/",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "migration",
+    "displayName": "Migration",
+    "products": [
+      {
+        "slug": "azure-migrate",
+        "displayName": "Azure Migrate",
+        "description": "Simplify migration and modernization with a unified platform",
+        "keywords": "vm migration,am,data migrations software,migration plan,cloud assessment",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-migrate/",
+          "documentationUrl": "docs:azure/migrate/migrate-overview",
+          "url": "acom:/services/azure-migrate/",
+          "slaUrl": "/en-us/support/legal/sla/azure-migrate/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "site-recovery",
+        "displayName": "Azure Site Recovery",
+        "description": "Keep your business running with built-in disaster recovery service",
+        "keywords": "asr,cloud storage service",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/site-recovery/",
+          "documentationUrl": "docs:/azure/site-recovery/",
+          "url": "acom:/products/site-recovery/",
+          "slaUrl": "/en-us/support/legal/sla/site-recovery/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "database-migration",
+        "displayName": "Azure Database Migration Service (classic)",
+        "description": "Accelerate your data migration to Azure",
+        "keywords": "adms",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/database-migration/",
+          "documentationUrl": "link:https://aka.ms/dms",
+          "url": "acom:/products/database-migration/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "databox",
+        "displayName": "Azure Data Box",
+        "description": "Appliances and solutions for data transfer to Azure and edge compute",
+        "keywords": "gateway,heavy,adb,data transfer,shipping,storage,large data,disk",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/databox/",
+          "documentationUrl": "docs:azure/databox/",
+          "url": "acom:/products/databox/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "cost-management",
+        "displayName": "Microsoft Cost Management",
+        "description": "Monitor, allocate, and optimize cloud costs with transparency, accuracy, and efficiency",
+        "keywords": "mcm,optimization",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/cost-management/",
+          "documentationUrl": "docs:azure/cost-management/",
+          "url": "acom:/products/cost-management/",
+          "slaUrl": "/en-us/support/legal/sla/cost-management/",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "mixed-reality",
+    "displayName": "Mixed reality",
+    "products": [
+      {
+        "slug": "remote-rendering",
+        "displayName": "Remote Rendering",
+        "description": "Render high-quality, interactive 3D content with real-time streaming",
+        "keywords": "rendering,mix reality,ar,rr,hololens,arr,remote",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/remote-rendering/",
+          "documentationUrl": "docs:/azure/remote-rendering/",
+          "url": "acom:/products/remote-rendering/",
+          "slaUrl": "/en-us/support/legal/sla/remote-rendering/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "digital-twins",
+        "displayName": "Azure Digital Twins",
+        "description": "Use IoT spatial intelligence to create models of physical environments",
+        "keywords": "industrial iot,model,adt,simulation",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/digital-twins/",
+          "documentationUrl": "docs:azure/digital-twins",
+          "url": "acom:/products/digital-twins/",
+          "slaUrl": "/en-us/support/legal/sla/digital-twins/",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hybrid-multicloud",
+    "displayName": "Hybrid + multicloud",
+    "products": [
+      {
+        "slug": "azure-sentinel",
+        "displayName": "Microsoft Sentinel",
+        "description": "Cloud-native SIEM and intelligent security analytics",
+        "keywords": "as,SIEM",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/microsoft-sentinel/",
+          "documentationUrl": "go:2073774",
+          "url": "https://www.microsoft.com/security/business/siem-and-xdr/microsoft-sentinel",
+          "slaUrl": "/en-us/support/legal/sla/azure-sentinel/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "expressroute",
+        "displayName": "Azure ExpressRoute",
+        "description": "Experience a fast, reliable, and private connection to Azure",
+        "keywords": "",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/expressroute/",
+          "documentationUrl": "docs:/azure/expressroute/",
+          "url": "acom:/products/expressroute/",
+          "slaUrl": "/en-us/support/legal/sla/expressroute/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "active-directory",
+        "displayName": "Microsoft Entra ID (formerly Azure AD)",
+        "description": "Synchronize on-premises directories and enable single sign-on",
+        "keywords": "ad,infrastructure as a service,iaas",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/active-directory/",
+          "documentationUrl": "docs:/azure/active-directory/",
+          "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id",
+          "slaUrl": "/en-us/support/legal/sla/active-directory/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-sql-database",
+        "displayName": "Azure SQL Database",
+        "description": "Build apps that scale with managed and intelligent SQL database in the cloud",
+        "keywords": "",
+        "freeAccountBenefits": [
+          {
+            "key": "Sql_Db_GeneralPurpose_Serverless",
+            "value": "100,000 vCore seconds of SQL DB General Purpose Serverless usage per month with 32GB of storage"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-sql-database/",
+          "documentationUrl": "docs:/azure/sql-database/",
+          "url": "acom:/products/azure-sql/database/",
+          "slaUrl": "/en-us/support/legal/sla/azure-sql-database/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-devops",
+        "displayName": "Azure DevOps",
+        "description": "Services for teams to share code, track work, and ship software",
+        "keywords": "ad,devops server",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/devops/",
+          "documentationUrl": "docs:/azure/devops/?view=azure-devops",
+          "url": "acom:/products/devops/",
+          "slaUrl": "/en-us/support/legal/sla/azure-devops/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "postgresql",
+        "displayName": "Azure Database for PostgreSQL",
+        "description": "Fully managed, intelligent, and scalable PostgreSQL",
+        "keywords": "server,hyperscale citus,oss app development,fully managed oss database service,flexible server,adps",
+        "freeAccountBenefits": [
+          {
+            "key": "a_burstable_bims_instance",
+            "value": "750 hours of the burstable B1MS instance"
+          },
+          {
+            "key": "b_storage",
+            "value": "32 GB of storage"
+          },
+          {
+            "key": "c_backup_storage",
+            "value": "32 GB of LRS Backup storage"
+          }
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/postgresql/",
+          "documentationUrl": "docs:/azure/postgresql/",
+          "url": "acom:/products/postgresql/",
+          "slaUrl": "/en-us/support/legal/sla/postgresql/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "iot-edge",
+        "displayName": "Azure IoT Edge",
+        "description": "Extend cloud intelligence and analytics to edge devices",
+        "keywords": "management,aie,cloud data",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/iot-edge/",
+          "documentationUrl": "docs:/azure/iot-edge/",
+          "url": "acom:/products/iot-edge/",
+          "slaUrl": "/en-us/support/legal/sla/iot-edge/",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "aks-hci",
+        "displayName": "Azure Kubernetes Service on Azure Local",
+        "description": "",
+        "keywords": "Op til {0},Over {0},{x} anslået Azure-forbrug i den foregående måned,aks,Anslået Azure-forbrug, der er brugt i foregående måned (pr. TO, pr. cloud)​,{0} - {1}",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-stack/aks-hci/",
+          "documentationUrl": "docs:/azure-stack/aks-hci/",
+          "url": "acom:/products/azure-stack/hci/",
+          "slaUrl": "#",
+          "roadmapUrl": "#"
+        }
+      },
+      {
+        "slug": "azure-arc",
+        "displayName": "Azure Arc",
+        "description": "Secure, develop, and operate infrastructure, apps, and Azure services anywhere",
+        "keywords": "kubernetes,azure arc enabled kubernetes,aa,arc,hybrid,multi-cloud,multi cloud",
+        "freeAccountBenefits": [
+        ],
+        "links": {
+          "pricingUrl": "acom:/pricing/details/azure-arc/",
+          "documentationUrl": "docs:azure/azure-arc/",
+          "url": "acom:/services/azure-arc/",
+          "slaUrl": "/en-us/support/legal/sla/azure-arc/",
+          "roadmapUrl": "#"
+        }
+      }
+    ]
+  }
+]

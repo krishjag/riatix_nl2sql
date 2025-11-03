@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AzureProductAvailabilityArray",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "RegionName": { "type": "string" },
+      "GeographyName": { "type": "string" },
+      "OfferingName": { "type": "string" },
+      "ProductSkuName": { "type": "string" },
+      "MacroGeographyName": { "type": "string" },
+      "CurrentState": {
+        "type": "string",
+        "enum": [ "GA", "Preview", "Closing Down" ]
+      }
+    },
+    "required": [      
+      "GeographyName",
+      "OfferingName",      
+      "CurrentState"
+    ],
+    "additionalProperties": false
+  }
+}
